@@ -1,0 +1,1198 @@
+WEBVTT
+
+00:00:00.000 --> 00:00:04.290 align:middle line:90%
+morning class sorry I can't be there
+this morning
+
+00:00:04.290 --> 00:00:09.030 align:middle line:90%
+arm but it's ok we'll just do this over
+video and today we're going to pick up
+
+00:00:09.030 --> 00:00:14.040 align:middle line:90%
+where we left off on friday we are in
+unit 3 talking about eliminating
+
+00:00:14.040 --> 00:00:16.980 align:middle line:84%
+possibilities to solve problems
+
+00:00:16.980 --> 00:00:20.850 align:middle line:90%
+today's problems are all going to be
+very similar the same type of problems
+
+00:00:20.850 --> 00:00:27.000 align:middle line:90%
+all day long and they're called crypt
+arithmetic problems and they're not
+
+00:00:27.000 --> 00:00:28.980 align:middle line:84%
+exactly easy
+
+00:00:28.980 --> 00:00:32.940 align:middle line:90%
+ok they might not come easy to you at
+first but I think with a little bit of
+
+00:00:32.940 --> 00:00:36.989 align:middle line:90%
+practice you'll understand them and
+you'll get them and you'll do perfectly
+
+00:00:36.989 --> 00:00:42.059 align:middle line:90%
+fine arm after all things that are
+worthwhile are difficult
+
+00:00:42.059 --> 00:00:45.329 align:middle line:90%
+so if they were all easy problems this
+class will be very fun but the whole
+
+00:00:45.329 --> 00:00:48.539 align:middle line:90%
+point is to challenge you and and push
+you and I think that these problems
+
+00:00:48.539 --> 00:00:51.899 align:middle line:84%
+today will will help push you armed
+
+00:00:51.899 --> 00:00:55.350 align:middle line:90%
+I'm going to go through a few examples
+with you today
+
+00:00:55.350 --> 00:00:59.430 align:middle line:90%
+if at any time in the video though you
+want to try the problem without hearing
+
+00:00:59.430 --> 00:01:00.480 align:middle line:84%
+the answer
+
+00:01:00.480 --> 00:01:05.250 align:middle line:90%
+you can pause the video try and work the
+problem out in your notes and see how
+
+00:01:05.250 --> 00:01:08.880 align:middle line:90%
+you do and then play the video to see if
+you got the same thing as me so that's
+
+00:01:08.880 --> 00:01:13.530 align:middle line:90%
+always a good strategy when you're
+watching these videos to practice before
+
+00:01:13.530 --> 00:01:17.430 align:middle line:90%
+you hear the answer and then go ahead
+and play it and see if you got the same
+
+00:01:17.430 --> 00:01:18.900 align:middle line:84%
+answers me
+
+00:01:18.900 --> 00:01:23.430 align:middle line:90%
+all right let's get started with the
+first problem here the first problem is
+
+00:01:23.430 --> 00:01:26.520 align:middle line:90%
+called life on the farm and this is how
+it goes
+
+00:01:26.520 --> 00:01:31.530 align:middle line:90%
+a meal and all have live on a farm with
+their father Gordon one day email asked
+
+00:01:31.530 --> 00:01:36.990 align:middle line:90%
+his father dad what happened to that cat
+we used to have all over heard this and
+
+00:01:36.990 --> 00:01:42.960 align:middle line:90%
+said yeah and we used to have a horse to
+Gordon replied that Tomcat and that old
+
+00:01:42.960 --> 00:01:44.490 align:middle line:84%
+nag were no use
+
+00:01:44.490 --> 00:01:49.770 align:middle line:90%
+I traded them for our new goat email
+said hey that sounds like a good script
+
+00:01:49.770 --> 00:01:51.360 align:middle line:84%
+arithmetic problem
+
+00:01:51.360 --> 00:01:55.770 align:middle line:90%
+come on all of let's see if we can solve
+it they wrote down tom
+
+00:01:55.770 --> 00:02:03.240 align:middle line:90%
+Plus nag equals goat each letter stands
+for a different digits 0 through 9 no 2
+
+00:02:03.240 --> 00:02:07.469 align:middle line:90%
+letters stand for the same digit
+determine which digit each letter
+
+00:02:07.469 --> 00:02:08.410 align:middle line:84%
+represents
+
+00:02:08.410 --> 00:02:14.440 align:middle line:90%
+all right and that's kind of a lot of
+language there but let's go to the next
+
+00:02:14.440 --> 00:02:17.230 align:middle line:90%
+slide and I kind of laid out what this
+problem
+
+00:02:17.230 --> 00:02:24.790 align:middle line:90%
+looks like all right I apologize for my
+sloppy handwriting but this is what the
+
+00:02:24.790 --> 00:02:26.650 align:middle line:90%
+problem looks like we're trying to add
+up
+
+00:02:26.650 --> 00:02:32.590 align:middle line:90%
+Tom plus nag to equal goat and if you
+can see over on the right-hand side
+
+00:02:32.590 --> 00:02:37.990 align:middle line:90%
+each letter has a different possibility
+for which number it could be for
+
+00:02:37.990 --> 00:02:38.590 align:middle line:84%
+instance
+
+00:02:38.590 --> 00:02:45.280 align:middle line:90%
+t it could be zero one two three four
+five six seven eight or nine
+
+00:02:45.280 --> 00:02:53.560 align:middle line:90%
+notice that he cannot be 10 or 25 each
+letter can only be one digit 0 through 9
+
+00:02:53.560 --> 00:03:00.640 align:middle line:90%
+the other thing that we need to know is
+that if t were five for instance then M
+
+00:03:00.640 --> 00:03:03.070 align:middle line:84%
+could not be five because it
+
+00:03:03.070 --> 00:03:11.050 align:middle line:90%
+the number can't repeat ok also kind of
+along the same lines if the tea and tom
+
+00:03:11.050 --> 00:03:17.020 align:middle line:90%
+was five then the tea and goat would
+also have to be five
+
+00:03:17.020 --> 00:03:23.620 align:middle line:90%
+ok so we're trying to figure out what
+each letter represents what number does
+
+00:03:23.620 --> 00:03:28.060 align:middle line:90%
+each letter represent all right so let's
+walk through this i'm going to go kind
+
+00:03:28.060 --> 00:03:30.040 align:middle line:84%
+of slow on this first one here
+
+00:03:30.040 --> 00:03:36.340 align:middle line:90%
+let's walk through this step-by-step the
+first letter that I know for sure is i
+
+00:03:36.340 --> 00:03:41.290 align:middle line:90%
+know that G has to be a one and let me
+try and explain that here
+
+00:03:41.290 --> 00:03:47.830 align:middle line:90%
+I think that G has to be one the reason
+why I think that G has to be one is the
+
+00:03:47.830 --> 00:03:52.810 align:middle line:90%
+biggest number that T could be would be
+nine
+
+00:03:52.810 --> 00:03:59.800 align:middle line:90%
+ok that's the biggest number possible 40
+and 50 is nine the biggest number that
+
+00:03:59.800 --> 00:04:07.959 align:middle line:90%
+end could possibly be would be 80 k & 9
++ 8
+
+00:04:07.959 --> 00:04:13.420 align:middle line:90%
+those are the biggest possible answers
+that they could be in 9 + ape only adds
+
+00:04:13.420 --> 00:04:15.040 align:middle line:84%
+up to 17
+
+00:04:15.040 --> 00:04:21.790 align:middle line:90%
+so see how that g at the show then would
+be a seven and I'd carry the war
+
+00:04:21.790 --> 00:04:29.380 align:middle line:90%
+one and the g would be a 1 see that
+there's no way that she could be a three
+
+00:04:29.380 --> 00:04:34.600 align:middle line:90%
+for instance because there's no way that
+T plus n could add up to 30 something
+
+00:04:34.600 --> 00:04:39.400 align:middle line:90%
+right the biggest that T plus n could
+add up to a 17
+
+00:04:39.400 --> 00:04:44.830 align:middle line:90%
+so that's why I know that g must be one
+and I don't know about
+
+00:04:44.830 --> 00:04:49.060 align:middle line:84%
+Oh or n or tea
+
+00:04:49.060 --> 00:04:56.770 align:middle line:90%
+I don't know about any of those yet arm
+but I do know that g must be one
+
+00:04:56.770 --> 00:05:01.720 align:middle line:90%
+ok and if the g and goat is one than the
+g and meg is also one so i'm going to
+
+00:05:01.720 --> 00:05:05.590 align:middle line:90%
+put a one there by that G over all my
+letters over here
+
+00:05:05.590 --> 00:05:10.060 align:middle line:90%
+hopefully you can jot down something
+like this on your notes because what i
+
+00:05:10.060 --> 00:05:14.260 align:middle line:90%
+want to do is I want to eliminate
+possibilities so I know that g is 1 i'm
+
+00:05:14.260 --> 00:05:17.620 align:middle line:90%
+going to go ahead and circle the one
+down there by G which means i can
+
+00:05:17.620 --> 00:05:22.330 align:middle line:90%
+eliminate the 0 in the 2 and the 3 and
+the 4 and the 5 and the 6 and 7 and the
+
+00:05:22.330 --> 00:05:23.620 align:middle line:84%
+eight and the nine
+
+00:05:23.620 --> 00:05:28.300 align:middle line:90%
+the other thing that I can do is I can
+eliminate the other letters i know that
+
+00:05:28.300 --> 00:05:35.290 align:middle line:90%
+a cannot be won I know that end cannot
+be won em cannot be 10 cannot be 1 and T
+
+00:05:35.290 --> 00:05:36.520 align:middle line:84%
+cannot be won
+
+00:05:36.520 --> 00:05:41.110 align:middle line:90%
+ok so already now I've eliminated some
+possibilities
+
+00:05:41.110 --> 00:05:47.710 align:middle line:90%
+alright the next thing that I'm looking
+at as I look at this problem and this is
+
+00:05:47.710 --> 00:05:49.120 align:middle line:84%
+not easy
+
+00:05:49.120 --> 00:05:55.480 align:middle line:90%
+hey it's kind of difficult no doubt
+about it but when i look at the this
+
+00:05:55.480 --> 00:06:03.610 align:middle line:90%
+Oh plus a equals a the oh and Tom the a
+and nag and the a and go 0 plus a equals
+
+00:06:03.610 --> 00:06:04.840 align:middle line:84%
+a
+
+00:06:04.840 --> 00:06:08.740 align:middle line:84%
+okay or you know something
+
+00:06:08.740 --> 00:06:11.890 align:middle line:84%
+plus a equals a
+
+00:06:11.890 --> 00:06:17.020 align:middle line:90%
+alright so when I think about that I
+think that
+
+00:06:17.020 --> 00:06:29.650 align:middle line:90%
+Oh must have to be 0 because 0 plus a
+would equal a right 0 plus 4 is 40 plus
+
+00:06:29.650 --> 00:06:33.660 align:middle line:84%
+8 is 8 so i think that the 0 in
+
+00:06:33.660 --> 00:06:41.040 align:middle line:90%
+arm has to be a 0 and if that o is a0
+than the Owen goat also has to be a zero
+
+00:06:41.040 --> 00:06:45.390 align:middle line:90%
+so i'm going to go ahead and fill those
+in 20 so I'm my own up here i'm going to
+
+00:06:45.390 --> 00:06:51.780 align:middle line:90%
+circle the zero cross out the two three
+four five six seven eight and nine
+
+00:06:51.780 --> 00:07:00.750 align:middle line:90%
+cross out the ont & M and N and a ok
+I've eliminated some possibilities here
+
+00:07:00.750 --> 00:07:04.590 align:middle line:84%
+I know that the 0 is 0 the g is one
+
+00:07:04.590 --> 00:07:12.930 align:middle line:90%
+now let's look at this T plus n t plus n
+t plus n has to equal 10
+
+00:07:12.930 --> 00:07:19.170 align:middle line:90%
+ok so there's only so many numbers that
+can add up to ten one thing is 5 plus 5
+
+00:07:19.170 --> 00:07:20.430 align:middle line:84%
+equals 10
+
+00:07:20.430 --> 00:07:25.590 align:middle line:90%
+but if t is five then n can't be five so
+i know that that's not the right answer
+
+00:07:25.590 --> 00:07:31.260 align:middle line:90%
+ok so at this point what you can do is
+you can just kind of make some guesses
+
+00:07:31.260 --> 00:07:33.900 align:middle line:84%
+and try it and see if it works out
+
+00:07:33.900 --> 00:07:37.530 align:middle line:90%
+and if it doesn't work out then at least
+you know that that's not the answer and
+
+00:07:37.530 --> 00:07:45.420 align:middle line:90%
+you can eliminate that possibility but
+for me I know that 7 plus 3 equals 10
+
+00:07:45.420 --> 00:07:51.570 align:middle line:90%
+so i'm going to go ahead and try that
+i'm going to try seven for my tea and
+
+00:07:51.570 --> 00:07:58.200 align:middle line:90%
+three for my end and if the tea and
+Thomas seven then the tea and goat must
+
+00:07:58.200 --> 00:07:59.100 align:middle line:84%
+be seven
+
+00:07:59.100 --> 00:08:04.950 align:middle line:90%
+ok so i'm going to go ahead and circle
+those ones over here i think t might be
+
+00:08:04.950 --> 00:08:12.750 align:middle line:90%
+seven so I'm going to eliminate the
+other numbers that also means that m is
+
+00:08:12.750 --> 00:08:16.710 align:middle line:90%
+not seven and n is not seven and a is
+not seven
+
+00:08:16.710 --> 00:08:22.169 align:middle line:90%
+I think that the n is 3 so I'm going to
+circle 34 n cross out the other numbers
+
+00:08:22.169 --> 00:08:28.890 align:middle line:90%
+ok which means that m is not 3a is not
+three
+
+00:08:28.890 --> 00:08:31.050 align:middle line:84%
+there we go
+
+00:08:31.050 --> 00:08:35.429 align:middle line:90%
+i'm going down to just a few
+possibilities now all right let's look
+
+00:08:35.429 --> 00:08:35.909 align:middle line:84%
+at that
+
+00:08:35.909 --> 00:08:42.149 align:middle line:84%
+em up there that m m+ one has to equal 7
+
+00:08:42.149 --> 00:08:50.310 align:middle line:90%
+so that means that M must be six right
+because six plus one equals seven so m
+
+00:08:50.310 --> 00:08:56.310 align:middle line:84%
+is six cross out the other possibilities
+
+00:08:56.310 --> 00:08:59.730 align:middle line:84%
+I know that a can't be six
+
+00:08:59.730 --> 00:09:07.740 align:middle line:90%
+ok excellent and so now the only letter
+that i'm left with is a ok and when I
+
+00:09:07.740 --> 00:09:12.959 align:middle line:90%
+look at my possibilities for a a could
+be 245 eight or nine
+
+00:09:12.959 --> 00:09:16.920 align:middle line:90%
+as long as I choose any of those numbers
+I think this problem is going to work
+
+00:09:16.920 --> 00:09:17.730 align:middle line:84%
+out
+
+00:09:17.730 --> 00:09:21.420 align:middle line:90%
+so let's just choose i think five is a
+lucky number so i'm going to choose 5
+
+00:09:21.420 --> 00:09:28.140 align:middle line:90%
+for a and if the day and nag is five and
+the a and goat must be five guys on the
+
+00:09:28.140 --> 00:09:31.440 align:middle line:90%
+circle five cross out the other
+possibilities
+
+00:09:31.440 --> 00:09:34.860 align:middle line:84%
+there we go I've got it
+
+00:09:34.860 --> 00:09:38.220 align:middle line:90%
+ok so now what I want to do is I just
+want to double check my answer and make
+
+00:09:38.220 --> 00:09:41.279 align:middle line:90%
+sure that everything makes sense i'm
+going to start over on the right
+
+00:09:41.279 --> 00:09:44.339 align:middle line:84%
+six plus one equals seven
+
+00:09:44.339 --> 00:09:48.300 align:middle line:84%
+that makes sense zero plus 5 equals 5
+
+00:09:48.300 --> 00:09:52.560 align:middle line:90%
+that makes sense and seven plus three
+equals 10
+
+00:09:52.560 --> 00:09:56.550 align:middle line:90%
+that also makes sense so on this
+particular problem
+
+00:09:56.550 --> 00:10:06.600 align:middle line:90%
+one possible solution is 706 + 350 1
+equals 1057 ok and then this particular
+
+00:10:06.600 --> 00:10:09.720 align:middle line:90%
+problem there's more than one correct
+answer you could have had a couple
+
+00:10:09.720 --> 00:10:14.760 align:middle line:90%
+different things but that's how you end
+up with your answer
+
+00:10:14.760 --> 00:10:18.209 align:middle line:84%
+ok so let's try another problem
+
+00:10:18.209 --> 00:10:22.050 align:middle line:90%
+this next problem there's only one
+possible answer so that makes it a
+
+00:10:22.050 --> 00:10:26.010 align:middle line:90%
+little bit trickier in some ways but in
+some ways it also makes it a little bit
+
+00:10:26.010 --> 00:10:28.890 align:middle line:90%
+easier because you can eliminate more
+possibilities
+
+00:10:28.890 --> 00:10:34.380 align:middle line:90%
+ok let's look at the next problem the
+next problem is called the letter from
+
+00:10:34.380 --> 00:10:36.300 align:middle line:84%
+college and this is how it goes
+
+00:10:36.300 --> 00:10:40.740 align:middle line:90%
+the story goes that a young man away at
+college needed some extra cash
+
+00:10:40.740 --> 00:10:43.550 align:middle line:84%
+he sent his mother this plea
+
+00:10:43.550 --> 00:10:48.290 align:middle line:90%
+he wanted her to send the amount
+indicated by the following some send
+
+00:10:48.290 --> 00:10:50.959 align:middle line:84%
+plus more equals money
+
+00:10:50.959 --> 00:10:55.010 align:middle line:90%
+each letter stands for a different
+digits 0 through 9 no 2 letters stand
+
+00:10:55.010 --> 00:10:56.360 align:middle line:84%
+for the same digit
+
+00:10:56.360 --> 00:10:59.990 align:middle line:90%
+how much money did the young man want
+assume that there's a decimal point
+
+00:10:59.990 --> 00:11:03.380 align:middle line:90%
+between the end in the e because his
+mother is probably not willing to send
+
+00:11:03.380 --> 00:11:06.769 align:middle line:90%
+10,000 or so dollars to her son on
+request
+
+00:11:06.769 --> 00:11:11.930 align:middle line:90%
+alright so when I go to the next slide
+of them up again I apologize for the
+
+00:11:11.930 --> 00:11:16.190 align:middle line:90%
+sloppy handwriting but on this is how it
+what I've got of that sin
+
+00:11:16.190 --> 00:11:19.670 align:middle line:90%
+plus more equals money along the
+right-hand side
+
+00:11:19.670 --> 00:11:24.440 align:middle line:90%
+I just listed all of the letters that
+were in this problem
+
+00:11:24.440 --> 00:11:30.649 align:middle line:90%
+ok so there are one two three four five
+six seven eight letters in this problem
+
+00:11:30.649 --> 00:11:35.510 align:middle line:90%
+each letter has 10 possibilities ok so
+there's only so many possibilities a lot
+
+00:11:35.510 --> 00:11:39.110 align:middle line:90%
+of students get really really
+overwhelmed when they're solving these
+
+00:11:39.110 --> 00:11:44.990 align:middle line:90%
+problems but remember that there's only
+10 possibilities for each letter so if
+
+00:11:44.990 --> 00:11:46.519 align:middle line:84%
+you get stuck on a letter
+
+00:11:46.519 --> 00:11:50.149 align:middle line:90%
+the most you're going to have to try
+it's 10 different possibilities which
+
+00:11:50.149 --> 00:11:53.570 align:middle line:90%
+you probably want to try 10 because i'm
+sure you can eliminate some of those
+
+00:11:53.570 --> 00:11:56.329 align:middle line:84%
+possibilities from the start
+
+00:11:56.329 --> 00:12:02.390 align:middle line:90%
+ok but let's try not to get overwhelmed
+let's try this problem the first letter
+
+00:12:02.390 --> 00:12:06.350 align:middle line:90%
+that we should look at is that em out in
+front our money
+
+00:12:06.350 --> 00:12:11.779 align:middle line:90%
+ok because in the last problem we went
+through in realize that M has only one
+
+00:12:11.779 --> 00:12:12.829 align:middle line:84%
+possible choice
+
+00:12:12.829 --> 00:12:18.560 align:middle line:90%
+m must be equal to 1 ok and we kind of
+figured that out on the last problem so
+
+00:12:18.560 --> 00:12:20.750 align:middle line:84%
+m is equal to 1
+
+00:12:20.750 --> 00:12:26.730 align:middle line:84%
+I can eliminate some possibilities then
+
+00:12:26.730 --> 00:12:34.170 align:middle line:90%
+i know that s can be 1 & II can't be won
+and the 0 ry
+
+00:12:34.170 --> 00:12:38.459 align:middle line:90%
+none of those numbers can be one ok and
+if the am and money is one then the am
+
+00:12:38.459 --> 00:12:40.320 align:middle line:84%
+and more must be one
+
+00:12:40.320 --> 00:12:43.649 align:middle line:84%
+all right very good
+
+00:12:43.649 --> 00:12:47.430 align:middle line:90%
+next the next number that i personally
+see is this
+
+00:12:47.430 --> 00:12:57.600 align:middle line:90%
+s i know that s plus 1 has to equal 10
+or more because i need to carry this one
+
+00:12:57.600 --> 00:12:59.730 align:middle line:84%
+out here to the M and money
+
+00:12:59.730 --> 00:13:03.240 align:middle line:84%
+ok so s plus 1 has to equal 10 or more
+
+00:13:03.240 --> 00:13:11.820 align:middle line:90%
+well there's not you know s can't be 12
+or 13 at the biggest number that s could
+
+00:13:11.820 --> 00:13:23.399 align:middle line:90%
+be as nine and nine plus 1 is 10 ok so
+that's what it has to be s has to be 9
+
+00:13:23.399 --> 00:13:31.230 align:middle line:90%
+so 9 plus 1 is 10 let me get caught up
+over here i know that s must be nine so
+
+00:13:31.230 --> 00:13:38.279 align:middle line:90%
+it's not a date it's not seven cents
+it's by 4 30 to 40 and he's not nine
+
+00:13:38.279 --> 00:13:44.220 align:middle line:90%
+across all these possibilities out and
+all this crossing all this stuff out it
+
+00:13:44.220 --> 00:13:48.839 align:middle line:90%
+may seem like a bit of a trouble but
+when you get down towards the end of the
+
+00:13:48.839 --> 00:13:53.760 align:middle line:90%
+problem it will help you so much when
+you when you've eliminated so many of
+
+00:13:53.760 --> 00:13:54.990 align:middle line:84%
+the possibilities
+
+00:13:54.990 --> 00:13:58.680 align:middle line:90%
+you only have one or two possibilities
+left it will save you I promise
+
+00:13:58.680 --> 00:14:05.010 align:middle line:90%
+ok I also know that Oh must be 0 so it's
+not two three four five six seven eight
+
+00:14:05.010 --> 00:14:10.170 align:middle line:84%
+or nine and also he's not 0 and 90
+
+00:14:10.170 --> 00:14:15.959 align:middle line:90%
+I can eliminate all of those
+possibilities ok if the oh and money is
+
+00:14:15.959 --> 00:14:18.240 align:middle line:84%
+not our 20 excuse me
+
+00:14:18.240 --> 00:14:25.070 align:middle line:84%
+then the oh and more must be 0
+
+00:14:25.070 --> 00:14:31.760 align:middle line:90%
+ok so here we get to a funny situation
+when we look at the E and send be plus 0
+
+00:14:31.760 --> 00:14:40.850 align:middle line:90%
+equals n and that doesn't make sense you
+think he + 0 would equal e right but um
+
+00:14:40.850 --> 00:14:44.120 align:middle line:90%
+this is kind of a conundrum that we run
+into
+
+00:14:44.120 --> 00:14:50.150 align:middle line:90%
+there's no way that he + 0 could equal
+end because he plus 0 is e the only way
+
+00:14:50.150 --> 00:14:56.330 align:middle line:90%
+we could do that is if n plus R equals
+something more than 10 and then we had
+
+00:14:56.330 --> 00:15:07.490 align:middle line:90%
+to carry a 1 up there above the ec that
+ok then this might work out
+
+00:15:07.490 --> 00:15:18.110 align:middle line:90%
+ok so let's try a number for e and maybe
+let's just try for let's try for
+
+00:15:18.110 --> 00:15:24.050 align:middle line:90%
+ok so I'm going to put a four in here
+for e which means i need a for down here
+
+00:15:24.050 --> 00:15:26.450 align:middle line:84%
+and a 4 right there
+
+00:15:26.450 --> 00:15:34.670 align:middle line:90%
+ok and one plus four is five so the end
+must be five
+
+00:15:34.670 --> 00:15:44.960 align:middle line:90%
+there we go now we're in another kind of
+sticky situation here when we look at
+
+00:15:44.960 --> 00:15:56.540 align:middle line:90%
+the n plus R + + r has to equal 14 + +
+RS equal 14 so 5 plus what equals 14
+
+00:15:56.540 --> 00:15:59.870 align:middle line:90%
+well you would think it would be nine
+but the problem is that i've already
+
+00:15:59.870 --> 00:16:02.930 align:middle line:84%
+used in the nine so our can't be nine
+
+00:16:02.930 --> 00:16:09.380 align:middle line:90%
+so again when i figure out when i look
+at this long enough as i know that our
+
+00:16:09.380 --> 00:16:16.520 align:middle line:90%
+must be eight and d + e must equal
+something more than 10 because then i
+
+00:16:16.520 --> 00:16:25.310 align:middle line:90%
+have to carry a 1 up there above the 51
+plus 5 and 6 6 plus 8 is 14 and then 1
+
+00:16:25.310 --> 00:16:29.360 align:middle line:90%
+plus 4 is 5 9 plus 1 is 10 so on and so
+forth
+
+00:16:29.360 --> 00:16:34.490 align:middle line:84%
+all right which brings me to D and why
+
+00:16:34.490 --> 00:16:37.670 align:middle line:90%
+ok let me fill in some of this other
+information here I know that
+
+00:16:37.670 --> 00:16:47.320 align:middle line:84%
+is for cross out cross out
+
+00:16:47.320 --> 00:16:59.590 align:middle line:90%
+I know that what else do I know our is
+eight
+
+00:16:59.590 --> 00:17:10.190 align:middle line:84%
+okay i know that n is 5
+
+00:17:10.190 --> 00:17:18.240 align:middle line:84%
+and I think that's all I no no
+
+00:17:18.240 --> 00:17:23.939 align:middle line:90%
+alright so when i'm looking at this i'm
+down to D and wine look at look at that
+
+00:17:23.939 --> 00:17:27.329 align:middle line:90%
+I've eliminated most of the
+possibilities for d and why
+
+00:17:27.329 --> 00:17:38.070 align:middle line:90%
+here's the deal though is d + 4 has to
+equal number bigger than 10 so
+
+00:17:38.070 --> 00:17:53.850 align:middle line:90%
+d the biggest number that d could be is
+70 k + 7 + 4 is only 11
+
+00:17:53.850 --> 00:17:58.080 align:middle line:90%
+here's the problem though is that one
+has already been used em is one
+
+00:17:58.080 --> 00:18:02.730 align:middle line:84%
+dang it not quite going to work out
+
+00:18:02.730 --> 00:18:05.730 align:middle line:84%
+ok so let's change some numbers here
+
+00:18:05.730 --> 00:18:09.750 align:middle line:90%
+see this is how L eliminating
+possibilities works as you try some
+
+00:18:09.750 --> 00:18:12.510 align:middle line:90%
+possibilities and see if they work and
+if they don't work then you try
+
+00:18:12.510 --> 00:18:13.620 align:middle line:84%
+something different
+
+00:18:13.620 --> 00:18:19.200 align:middle line:90%
+let's say that he isn't for let's say
+that
+
+00:18:19.200 --> 00:18:30.929 align:middle line:90%
+e is five ok now we have seven plus 5 is
+in 11
+
+00:18:30.929 --> 00:18:35.040 align:middle line:84%
+now that's 12
+
+00:18:35.040 --> 00:18:38.970 align:middle line:84%
+carry the 1 and can't be five anymore
+
+00:18:38.970 --> 00:18:46.740 align:middle line:84%
+let's say n is 6
+
+00:18:46.740 --> 00:19:01.290 align:middle line:90%
+here we go 1 plus 6 and 7 7 plus 8 is 15
+so again this isn't for any more it's 15
+
+00:19:01.290 --> 00:19:03.150 align:middle line:84%
+carry the one
+
+00:19:03.150 --> 00:19:20.100 align:middle line:90%
+this e up here isn't for it must be a 5
+1 plus 5 is 6 6 plus 0 is six and the
+
+00:19:20.100 --> 00:19:24.870 align:middle line:90%
+end up on sand is safe so it's a good
+thing that the end I'm here and money
+
+00:19:24.870 --> 00:19:25.770 align:middle line:84%
+and six
+
+00:19:25.770 --> 00:19:29.640 align:middle line:84%
+so my gosh i think that that works
+
+00:19:29.640 --> 00:19:32.970 align:middle line:84%
+ok I think that 900
+
+00:19:32.970 --> 00:19:42.000 align:middle line:90%
+look sorry 9560 7 plus 1085 equals ten
+thousand six hundred and fifty-two let's
+
+00:19:42.000 --> 00:19:46.679 align:middle line:90%
+just go through it one more time step by
+step to make sure that it works 7 plus 5
+
+00:19:46.679 --> 00:19:47.520 align:middle line:84%
+is 12
+
+00:19:47.520 --> 00:19:52.770 align:middle line:84%
+carry the 1 1 plus 6 and 7 7 plus 8 is
+
+00:19:52.770 --> 00:20:01.170 align:middle line:90%
+carry the 1 1 plus 5 is 6 6 plus 0 is 69
+plus 1 is 10 carry the one
+
+00:20:01.170 --> 00:20:06.000 align:middle line:90%
+excellent work so that's the solution to
+this problem and it's not always going
+
+00:20:06.000 --> 00:20:09.780 align:middle line:90%
+to work out perfectly as we saw in this
+example we found out that he could not
+
+00:20:09.780 --> 00:20:12.780 align:middle line:84%
+be four he had to be five
+
+00:20:12.780 --> 00:20:19.920 align:middle line:90%
+ok so let's try one more example in this
+next example it's called here she comes
+
+00:20:19.920 --> 00:20:26.580 align:middle line:90%
+and it's here plus xi equals comes and
+this problem is the same rules each
+
+00:20:26.580 --> 00:20:32.850 align:middle line:90%
+letter has to be a digit 0 through 9 no
+2 letters can be the same digit same
+
+00:20:32.850 --> 00:20:34.500 align:middle line:84%
+rules that we've been playing all day
+
+00:20:34.500 --> 00:20:39.300 align:middle line:90%
+again this is a good chance for you to
+pause the video and try this one out on
+
+00:20:39.300 --> 00:20:44.610 align:middle line:90%
+your own see if you can do it all on
+your own and then watch the video and
+
+00:20:44.610 --> 00:20:45.990 align:middle line:84%
+see how I did
+
+00:20:45.990 --> 00:20:51.210 align:middle line:90%
+ok so I'm going to go to the next screen
+again it's a good idea deposit and try
+
+00:20:51.210 --> 00:20:55.140 align:middle line:90%
+but i'm going to go ahead and solve this
+thing ok
+
+00:20:55.140 --> 00:20:59.250 align:middle line:90%
+as I'm working here again the first
+thing that I look at is the sea out
+
+00:20:59.250 --> 00:21:03.299 align:middle line:90%
+front I know that that C has to be a one
+it can't be anything bigger than that he
+
+00:21:03.299 --> 00:21:15.870 align:middle line:90%
+has to be a one and eliminate some
+possibilities here in just a moment
+
+00:21:15.870 --> 00:21:18.380 align:middle line:84%
+I
+
+00:21:18.380 --> 00:21:22.070 align:middle line:90%
+next then I look at that H and I don't
+know that
+
+00:21:22.070 --> 00:21:26.210 align:middle line:84%
+h+ nothing has to equal 10 or bigger
+
+00:21:26.210 --> 00:21:31.190 align:middle line:90%
+hey so that's tough to do because the
+biggest number H could be as a nine so
+
+00:21:31.190 --> 00:21:48.809 align:middle line:90%
+i'm going to go ahead and assume that H
+must be 9 h is nine
+
+00:21:48.809 --> 00:21:55.169 align:middle line:90%
+all right and if the h and here is nine
+then the h and she is also nine so we
+
+00:21:55.169 --> 00:21:59.429 align:middle line:90%
+know that I also know that i must be
+carrying a one up here at the top
+
+00:21:59.429 --> 00:22:03.389 align:middle line:84%
+because 1 plus 9 equals 10
+
+00:22:03.389 --> 00:22:06.570 align:middle line:84%
+ok so that
+
+00:22:06.570 --> 00:22:20.920 align:middle line:90%
+Oh must be 0 so i know that i know all
+must be 0
+
+00:22:20.920 --> 00:22:30.400 align:middle line:90%
+there we go it's coming along now ok now
+I'm to the part where and i'm not
+
+00:22:30.400 --> 00:22:34.210 align:middle line:90%
+exactly sure where to go next so what I
+need to do is I just need to try some
+
+00:22:34.210 --> 00:22:39.280 align:middle line:90%
+arm different numbers and see if they
+work or not I had to do some trial and
+
+00:22:39.280 --> 00:22:39.880 align:middle line:84%
+error
+
+00:22:39.880 --> 00:22:44.440 align:middle line:90%
+sometimes it might work sometimes it
+doesn't work ok so let's look at me
+
+00:22:44.440 --> 00:22:49.000 align:middle line:90%
+there's 1 2 3 4 e's so if i could figure
+out yet but I could figure out the rest
+
+00:22:49.000 --> 00:22:50.020 align:middle line:84%
+of this problem
+
+00:22:50.020 --> 00:22:54.700 align:middle line:90%
+let's make a guess 4e ok last time he
+was five
+
+00:22:54.700 --> 00:22:58.420 align:middle line:90%
+so let's try that again see if it works
+again let's try
+
+00:22:58.420 --> 00:23:09.730 align:middle line:90%
+II that's 5k and already I can see that
+that's not going to work because 5+5
+
+00:23:09.730 --> 00:23:15.220 align:middle line:90%
+would equal zero which means s would
+have to be 0 and s can't be 0 because 0
+
+00:23:15.220 --> 00:23:17.860 align:middle line:84%
+is already 0 so that's not going to work
+
+00:23:17.860 --> 00:23:27.100 align:middle line:90%
+he can't be five so let me get my eraser
+out
+
+00:23:27.100 --> 00:23:34.840 align:middle line:90%
+he's not five I know that ok so over on
+my own chart over here I know that II
+
+00:23:34.840 --> 00:23:38.830 align:middle line:84%
+can't be five eliminate that possibility
+
+00:23:38.830 --> 00:23:46.000 align:middle line:90%
+ok let's try for maybe he is for that's
+worth a try
+
+00:23:46.000 --> 00:23:55.150 align:middle line:90%
+ok four plus for then would be eight so
+s might be eight means this s is eight
+
+00:23:55.150 --> 00:23:59.470 align:middle line:84%
+ok that looks good so far
+
+00:23:59.470 --> 00:24:09.429 align:middle line:90%
+then r + 9 has to equal 4 r plus 9 is
+equal for that means our must be five is
+
+00:24:09.429 --> 00:24:20.559 align:middle line:90%
+five plus nine is 14 then I could carry
+a 1 over here 1 plus 4 is 55 plus 8 is
+
+00:24:20.559 --> 00:24:23.620 align:middle line:84%
+the team carry the one which I needed
+
+00:24:23.620 --> 00:24:28.299 align:middle line:90%
+hey how it looks like we have a winner
+here let's double check our answer
+
+00:24:28.299 --> 00:24:34.809 align:middle line:90%
+really quick go through to make sure
+that it makes sense if he is 44 plus 4
+
+00:24:34.809 --> 00:24:38.169 align:middle line:84%
+is 8 s must be eight
+
+00:24:38.169 --> 00:24:43.120 align:middle line:84%
+ok then five plus nine is 14
+
+00:24:43.120 --> 00:24:51.970 align:middle line:90%
+carry the 1 1 plus 4 is 55 plus 8 is 13
+carry the 1 1 plus 9 is 10 carry the one
+
+00:24:51.970 --> 00:24:55.480 align:middle line:90%
+so it looks like there's our answer i'm
+going to go ahead and fill in my chart
+
+00:24:55.480 --> 00:24:56.590 align:middle line:84%
+here real quick
+
+00:24:56.590 --> 00:25:02.470 align:middle line:84%
+I found my answer
+
+00:25:02.470 --> 00:25:07.120 align:middle line:90%
+notice I didn't get my answer right on
+the first try first I thought that he
+
+00:25:07.120 --> 00:25:08.470 align:middle line:84%
+was five
+
+00:25:08.470 --> 00:25:13.690 align:middle line:90%
+ok and so I did a little bit of math and
+figured out that there's no way each
+
+00:25:13.690 --> 00:25:18.610 align:middle line:90%
+could have been five so i eliminated
+five from the possibilities and I just
+
+00:25:18.610 --> 00:25:20.049 align:middle line:84%
+tried a different number
+
+00:25:20.049 --> 00:25:24.070 align:middle line:90%
+and don't be afraid to just do some
+trial and error and try different
+
+00:25:24.070 --> 00:25:30.380 align:middle line:90%
+numbers out and see if you can come up
+with the right one
+
+00:25:30.380 --> 00:25:33.500 align:middle line:90%
+all right it looks like I finished that
+problem
+
+00:25:33.500 --> 00:25:37.040 align:middle line:84%
+the next slide is your homework problem
+
+00:25:37.040 --> 00:25:40.670 align:middle line:90%
+ok and this one you're going to have to
+try all on your own if you want to work
+
+00:25:40.670 --> 00:25:44.390 align:middle line:90%
+with a partner to solve this one that's
+okay you can work with a partner
+
+00:25:44.390 --> 00:25:49.520 align:middle line:84%
+the next one is called wow wow so cook
+
+00:25:49.520 --> 00:25:53.810 align:middle line:90%
+ok and it goes like this i dinnae was
+having an argument with her roommate
+
+00:25:53.810 --> 00:25:58.520 align:middle line:90%
+Frankie about whether or not Frankie
+could cook after arguing for a while
+
+00:25:58.520 --> 00:26:01.670 align:middle line:84%
+then they said wow so cook
+
+00:26:01.670 --> 00:26:07.310 align:middle line:90%
+Frankie who was a math teacher noticed
+that donate what dinnae said might be a
+
+00:26:07.310 --> 00:26:09.200 align:middle line:84%
+crypt arithmetic problem
+
+00:26:09.200 --> 00:26:13.370 align:middle line:90%
+she sat down to work on it and then they
+ended up cooking dinner
+
+00:26:13.370 --> 00:26:17.120 align:middle line:90%
+each letter in the crypt arithmetic
+problem stands for a different digit
+
+00:26:17.120 --> 00:26:18.470 align:middle line:84%
+hint
+
+00:26:18.470 --> 00:26:22.850 align:middle line:84%
+k equals nine okay so they're giving UK
+
+00:26:22.850 --> 00:26:26.510 align:middle line:84%
+that's good i know that k equals nine
+
+00:26:26.510 --> 00:26:31.190 align:middle line:84%
+I also know that see got to equal one
+
+00:26:31.190 --> 00:26:37.730 align:middle line:90%
+so there's only three letters less a w +
+0 and then s
+
+00:26:37.730 --> 00:26:41.000 align:middle line:90%
+those are the only three letters that
+you have to figure out this problem
+
+00:26:41.000 --> 00:26:45.980 align:middle line:90%
+looks really really simple but it's a
+little trickier than you think so you've
+
+00:26:45.980 --> 00:26:49.730 align:middle line:90%
+got to be very careful with it but you
+only have three letters to figure out w
+
+00:26:49.730 --> 00:26:52.340 align:middle line:84%
+ons if you can solve this problem
+
+00:26:52.340 --> 00:26:57.980 align:middle line:90%
+you don't need to write any paragraphs
+today just um solve this problem find
+
+00:26:57.980 --> 00:27:02.690 align:middle line:90%
+out what W equals what o is equal and
+what s equals good luck I hope this
+
+00:27:02.690 --> 00:27:06.140 align:middle line:90%
+comes easy to you if you need to go back
+and watch this video game that's no
+
+00:27:06.140 --> 00:27:06.920 align:middle line:84%
+problem
+
+00:27:06.920 --> 00:27:11.920 align:middle line:84%
+thank you and i will see you soon bye

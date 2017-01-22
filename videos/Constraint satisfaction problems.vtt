@@ -1,0 +1,1348 @@
+WEBVTT
+
+00:00:00.000 --> 00:00:05.009 align:middle line:90%
+i'm going to talk about constraint
+satisfaction problems for example so you
+
+00:00:05.009 --> 00:00:11.160 align:middle line:90%
+have a map of Australia here and the
+task is to color each region is a red
+
+00:00:11.160 --> 00:00:16.500 align:middle line:90%
+green or blue and no adjacent region can
+have the same color that is those are
+
+00:00:16.500 --> 00:00:21.660 align:middle line:90%
+constraints and that's a constraint
+satisfaction problem so constraint
+
+00:00:21.660 --> 00:00:27.090 align:middle line:90%
+satisfaction problem we've seen so far
+if you've been following the videos
+
+00:00:27.090 --> 00:00:33.300 align:middle line:90%
+other algorithms that we evaluate states
+with heuristics in a goal right I
+
+00:00:33.300 --> 00:00:36.540 align:middle line:90%
+constraint satisfaction problem is a
+factor of representation of a state
+
+00:00:36.540 --> 00:00:42.270 align:middle line:90%
+where you have a set of variables with a
+value the idea that you have constraints
+
+00:00:42.270 --> 00:00:48.809 align:middle line:90%
+now that allows for more efficient
+algorithms and we want to find is any
+
+00:00:48.809 --> 00:00:52.860 align:middle line:90%
+solution now there isn't enough to mom
+there isn't there's a solution
+
+00:00:52.860 --> 00:00:56.699 align:middle line:90%
+ok and either they have a solution or
+they don't
+
+00:00:56.699 --> 00:01:00.390 align:middle line:90%
+ok the way of constraint satisfaction
+problems we're going to see now there's
+
+00:01:00.390 --> 00:01:04.680 align:middle line:90%
+another variant of constraint
+satisfaction problems in which there is
+
+00:01:04.680 --> 00:01:09.689 align:middle line:90%
+an ideal solution but if it cannot be
+found there's you know a second best
+
+00:01:09.689 --> 00:01:14.549 align:middle line:90%
+we're going to talk a little bit about
+that in future slides
+
+00:01:14.549 --> 00:01:21.330 align:middle line:90%
+well the constraint satisfaction problem
+have a formulation usually there's a set
+
+00:01:21.330 --> 00:01:26.729 align:middle line:90%
+of variables a set of domains for each
+variable and a set of constraints that
+
+00:01:26.729 --> 00:01:28.560 align:middle line:84%
+my involve these variables
+
+00:01:28.560 --> 00:01:33.360 align:middle line:90%
+ok so i'll explain a little bit what
+each one of these is right so X is set
+
+00:01:33.360 --> 00:01:38.070 align:middle line:90%
+of variables that goes from x 1 to x and
+so all the variables in your program in
+
+00:01:38.070 --> 00:01:39.000 align:middle line:84%
+your problem
+
+00:01:39.000 --> 00:01:43.079 align:middle line:90%
+these the set of domain so basically for
+each of these variables
+
+00:01:43.079 --> 00:01:48.990 align:middle line:90%
+what are the possible values they can
+take ok so there's a domain so I for
+
+00:01:48.990 --> 00:01:55.049 align:middle line:90%
+each X sub I ok and then there's a set
+of constraint which is basically the
+
+00:01:55.049 --> 00:01:58.799 align:middle line:90%
+scope what what are the variables
+involved what's the scope involved in
+
+00:01:58.799 --> 00:02:01.799 align:middle line:90%
+what is going to be the relationship
+between those variables
+
+00:02:01.799 --> 00:02:07.560 align:middle line:90%
+ok usually we won't do the notation
+where we put scope common relationship
+
+00:02:07.560 --> 00:02:12.990 align:middle line:90%
+so much we'll just put some constraints
+but we'll start with
+
+00:02:12.990 --> 00:02:18.480 align:middle line:90%
+australia problem the idea is to color
+each region of Australia with a
+
+00:02:18.480 --> 00:02:22.740 align:middle line:90%
+different color and no adjacent regions
+should have the same color and you only
+
+00:02:22.740 --> 00:02:29.280 align:middle line:90%
+can choose between red green or blue
+another way of looking at this program
+
+00:02:29.280 --> 00:02:34.680 align:middle line:90%
+this problem is to put it as a graph
+where you have saw the southern
+
+00:02:34.680 --> 00:02:37.920 align:middle line:90%
+Australia here in southern Australia is
+connected to Western Australia the
+
+00:02:37.920 --> 00:02:43.260 align:middle line:90%
+northern territories queensland new
+south wales and victoria scientists
+
+00:02:43.260 --> 00:02:47.580 align:middle line:90%
+money is unconnected to any of these
+right and then perhaps by looking at is
+
+00:02:47.580 --> 00:02:52.980 align:middle line:90%
+a tree we can use looking at the graph
+we can use some of our search problems
+
+00:02:52.980 --> 00:02:58.410 align:middle line:90%
+to help us guide through this but let's
+look at the formulation you have the
+
+00:02:58.410 --> 00:03:02.880 align:middle line:90%
+variables the variables are the
+different states southern Australia New
+
+00:03:02.880 --> 00:03:10.170 align:middle line:90%
+South Wales Northern Territory western
+australia queensland Victoria and I
+
+00:03:10.170 --> 00:03:16.860 align:middle line:90%
+forgot test mania right there but let's
+let's think that testimony is is now
+
+00:03:16.860 --> 00:03:26.610 align:middle line:90%
+there it should actually appear anytime
+so these are the these are the variables
+
+00:03:26.610 --> 00:03:35.760 align:middle line:90%
+now you see that there is also the
+domain whoops all right there's this
+
+00:03:35.760 --> 00:03:36.420 align:middle line:84%
+mania
+
+00:03:36.420 --> 00:03:42.840 align:middle line:90%
+ok so then there's also the domains so
+for each of these so for example for
+
+00:03:42.840 --> 00:03:47.280 align:middle line:90%
+southern Australia the choices are red
+blue or green these are the values that
+
+00:03:47.280 --> 00:03:52.020 align:middle line:90%
+each one of these can take now in this
+problem each variable can actually take
+
+00:03:52.020 --> 00:04:03.120 align:middle line:90%
+the same colors initially right so so so
+that's the domain of the of the
+
+00:04:03.120 --> 00:04:04.050 align:middle line:84%
+variables
+
+00:04:04.050 --> 00:04:09.120 align:middle line:84%
+ok now the constraints
+
+00:04:09.120 --> 00:04:12.209 align:middle line:90%
+well the scope is for every for all
+variables
+
+00:04:12.209 --> 00:04:21.060 align:middle line:90%
+ok XO x such that x sub J is touching
+for all pairs of variables xixj such
+
+00:04:21.060 --> 00:04:23.190 align:middle line:84%
+that they're touching each other
+
+00:04:23.190 --> 00:04:24.720 align:middle line:84%
+ok that's the scope
+
+00:04:24.720 --> 00:04:29.160 align:middle line:90%
+the constraint is the color of the one
+should be different than the color of
+
+00:04:29.160 --> 00:04:33.930 align:middle line:90%
+the other ok so this is a way of
+describing a set of constraints
+
+00:04:33.930 --> 00:04:42.030 align:middle line:90%
+ok let's look at another problem for
+example scheduling classes
+
+00:04:42.030 --> 00:04:48.570 align:middle line:90%
+okay how do we formulate provide
+scheduling classes in terms of variables
+
+00:04:48.570 --> 00:04:52.110 align:middle line:84%
+variables domains and constraints
+
+00:04:52.110 --> 00:04:58.230 align:middle line:90%
+well one way of doing it is for example
+if you take these are the computer
+
+00:04:58.230 --> 00:05:03.030 align:middle line:90%
+science classes these each class is a
+variable and then the domain is the
+
+00:05:03.030 --> 00:05:07.200 align:middle line:90%
+classes the times the days and times
+which these classes can actually happen
+
+00:05:07.200 --> 00:05:14.340 align:middle line:90%
+right so for example first-years 235 can
+be monday at 9am monday at 11am monday
+
+00:05:14.340 --> 00:05:18.270 align:middle line:90%
+$MONTH $DAY 1pm and so on and so forth
+right so these are days in which class
+
+00:05:18.270 --> 00:05:23.460 align:middle line:90%
+can happen and we can formulate the
+following constraint for all IJ for all
+
+00:05:23.460 --> 00:05:32.010 align:middle line:90%
+IJ if the variable in the classes of
+xixj our core requisites then the times
+
+00:05:32.010 --> 00:05:36.360 align:middle line:90%
+must be different if they're not
+correctness it's well then they can
+
+00:05:36.360 --> 00:05:41.820 align:middle line:90%
+happen at the same time that can be one
+way of formulating this problem now
+
+00:05:41.820 --> 00:05:47.160 align:middle line:90%
+there's another concept called the old
+if that might help us develop
+
+00:05:47.160 --> 00:05:53.310 align:middle line:90%
+constraints so for example we have sued
+aku here in which this space has to be
+
+00:05:53.310 --> 00:05:56.220 align:middle line:90%
+different than this base has to be
+different than this place and so on and
+
+00:05:56.220 --> 00:06:01.919 align:middle line:90%
+so forth right well instead of putting
+many many constraints instead of putting
+
+00:06:01.919 --> 00:06:06.720 align:middle line:90%
+like I don't know how many many
+constraints we can do all diff and we
+
+00:06:06.720 --> 00:06:15.419 align:middle line:90%
+can do there's an old if for the columns
+that's 90 tips for the columns then
+
+00:06:15.419 --> 00:06:19.169 align:middle line:90%
+there's an altar for the road saying all
+the numbers here must be different right
+
+00:06:19.169 --> 00:06:26.729 align:middle line:90%
+so that there's nine all dates for the
+rose and then there's also an all diff
+
+00:06:26.729 --> 00:06:28.860 align:middle line:84%
+for each square
+
+00:06:28.860 --> 00:06:35.970 align:middle line:90%
+ok so within a square each of these
+variables which is sliding the Sudoku
+
+00:06:35.970 --> 00:06:38.110 align:middle line:84%
+puzzle each of the variables should be
+
+00:06:38.110 --> 00:06:44.380 align:middle line:90%
+all different right so there's nine in
+the squares and that gives us a total of
+
+00:06:44.380 --> 00:06:49.630 align:middle line:90%
+twenty-seven called dibs is a lot less
+than say the simpler way to put this is
+
+00:06:49.630 --> 00:06:56.680 align:middle line:90%
+81 pairs you know difference but then
+it's a lot more if you have to consider
+
+00:06:56.680 --> 00:07:04.960 align:middle line:90%
+this we're not only for each square for
+each square you have you have a 80
+
+00:07:04.960 --> 00:07:09.850 align:middle line:90%
+possibility so there's a lot of
+constraints in here if you start
+
+00:07:09.850 --> 00:07:10.960 align:middle line:84%
+computing them
+
+00:07:10.960 --> 00:07:21.580 align:middle line:90%
+okay all right now there's other kinds
+of puzzles the usually they called the
+
+00:07:21.580 --> 00:07:28.420 align:middle line:90%
+script automatic puzzles where the
+problem is like this so they say 2+2 is
+
+00:07:28.420 --> 00:07:32.110 align:middle line:90%
+4 and all these letters stand for a
+number
+
+00:07:32.110 --> 00:07:37.510 align:middle line:90%
+ok so one can think of the constraints
+as follows
+
+00:07:37.510 --> 00:07:44.440 align:middle line:90%
+ftu wro they're all different all the
+unique letters here are all different
+
+00:07:44.440 --> 00:07:49.510 align:middle line:90%
+they're all different numbers and then
+also we know that Oh plus 0 is our right
+
+00:07:49.510 --> 00:07:56.740 align:middle line:90%
+Oh bless always are but what if Oh is
+safe for example 7 7 plus 7 is 14 so our
+
+00:07:56.740 --> 00:08:02.080 align:middle line:90%
+would be four and and the one gets
+carried over here right
+
+00:08:02.080 --> 00:08:09.010 align:middle line:90%
+so instead we can say that Oh plus 0 is
+r + 10 times the carry
+
+00:08:09.010 --> 00:08:20.080 align:middle line:90%
+ok so hopeless always r + 10 times for
+Kerry of the tents right so if oh we're
+
+00:08:20.080 --> 00:08:33.409 align:middle line:90%
+to be seven we have 77 is 4 plus 10 x 10
+x 1
+
+00:08:33.409 --> 00:08:36.769 align:middle line:84%
+right because the carrier is one
+
+00:08:36.769 --> 00:08:42.259 align:middle line:90%
+r is for + 10 times one that's 14 right
+so one can say that
+
+00:08:42.259 --> 00:08:50.240 align:middle line:90%
+Oh bless always r + 10 times the carry
+in the same way one can say that W and
+
+00:08:50.240 --> 00:08:58.939 align:middle line:90%
+up w $OPERAND plus w + this Carrie is
+you write and then but perhaps there's a
+
+00:08:58.939 --> 00:09:05.899 align:middle line:90%
+carried to this side as well what if WWE
+r 7 so 7 plus 7 is 14 plus the one
+
+00:09:05.899 --> 00:09:12.019 align:middle line:90%
+that's 15 that's us five and there's a
+carry but this Carrie is now in the
+
+00:09:12.019 --> 00:09:17.029 align:middle line:90%
+hundreds and the same things gonna
+happen with T&O so the constraints to
+
+00:09:17.029 --> 00:09:18.139 align:middle line:84%
+stand like this
+
+00:09:18.139 --> 00:09:26.420 align:middle line:90%
+oh + 0 must be r + 10 times the carry
+now that carry if press it right plus w
+
+00:09:26.420 --> 00:09:30.829 align:middle line:90%
+$OPERAND plus w so I'm looking at this
+home right now
+
+00:09:30.829 --> 00:09:43.430 align:middle line:90%
+ok w $OPERAND plus w must be u + 10
+times the carry of 100 in the same way
+
+00:09:43.430 --> 00:09:55.279 align:middle line:90%
+in the same way we can see that we can
+see that then the next the next time
+
+00:09:55.279 --> 00:10:03.170 align:middle line:90%
+around we're going to have for the teeth
+right so let's look at the teeth now
+
+00:10:03.170 --> 00:10:06.350 align:middle line:84%
+we're looking at this column here right
+
+00:10:06.350 --> 00:10:11.959 align:middle line:90%
+t plus t plus the current the carry of
+the hundred so the second carry right
+
+00:10:11.959 --> 00:10:20.300 align:middle line:90%
+plus the carried the hundreds must be 0
+so the care of the hundreds plus t plus
+
+00:10:20.300 --> 00:10:26.149 align:middle line:90%
+t must be equal to 0 plus 10 times the
+carrier of the thousands which basically
+
+00:10:26.149 --> 00:10:33.319 align:middle line:90%
+I this numbers they don't know much
+except which place that carries on and
+
+00:10:33.319 --> 00:10:36.709 align:middle line:90%
+then F must be the carrier of the
+thousands because there's no letters
+
+00:10:36.709 --> 00:10:44.059 align:middle line:90%
+about ok that's how we could specify the
+constraints here i'm not doing it in the
+
+00:10:44.059 --> 00:10:46.420 align:middle line:84%
+form of skull
+
+00:10:46.420 --> 00:10:53.680 align:middle line:90%
+skull color relationships right I'm not
+doing like that i'm just doing the
+
+00:10:53.680 --> 00:10:57.100 align:middle line:90%
+relationships and the scope is the
+variables involved here right so for
+
+00:10:57.100 --> 00:11:01.269 align:middle line:90%
+example the scope of of this constraint
+would be the values
+
+00:11:01.269 --> 00:11:08.230 align:middle line:90%
+oh and are right and then I introduce
+this c10 and from now on because trains
+
+00:11:08.230 --> 00:11:12.160 align:middle line:90%
+i'm going to just put the constraints
+like this another way of representing
+
+00:11:12.160 --> 00:11:18.850 align:middle line:90%
+this is for example in a tree what this
+square is the old if these are all
+
+00:11:18.850 --> 00:11:24.850 align:middle line:90%
+different and then F&T you know they
+added together and they go into another
+
+00:11:24.850 --> 00:11:29.589 align:middle line:90%
+constraint which is they together have
+c3 they together create another variable
+
+00:11:29.589 --> 00:11:36.310 align:middle line:90%
+to which they're just that that is
+involved in this constraint TR for
+
+00:11:36.310 --> 00:11:46.480 align:middle line:90%
+example of ya 70r are involved there u
+and w right are involved right you and
+
+00:11:46.480 --> 00:11:53.829 align:middle line:90%
+WR involved you and WR involved in this
+constraint uw-w are involved and they
+
+00:11:53.829 --> 00:11:58.899 align:middle line:90%
+also involves see of 100 and CEO of
+tents and they also loves the second
+
+00:11:58.899 --> 00:12:03.610 align:middle line:90%
+carry and the first carry the first
+carries you have 10 carries your 100
+
+00:12:03.610 --> 00:12:08.740 align:middle line:90%
+right so this basically has a graph that
+tells you which variables are involved
+
+00:12:08.740 --> 00:12:17.170 align:middle line:90%
+this is CEO of 100 this is I do note
+that I denoted these I'm sorry this sea
+
+00:12:17.170 --> 00:12:27.220 align:middle line:90%
+of 10 cf10 this is sea of 100 also
+called it and this is C or 1000 it's the
+
+00:12:27.220 --> 00:12:28.720 align:middle line:84%
+same they're the same variables
+
+00:12:28.720 --> 00:12:34.240 align:middle line:90%
+ok so this is another way of writing of
+specifying a constraint satisfaction
+
+00:12:34.240 --> 00:12:41.079 align:middle line:90%
+problem that goes like that now
+constraint satisfaction problems there's
+
+00:12:41.079 --> 00:12:44.560 align:middle line:90%
+there's a kind of constraints different
+kinds of constraints of the unity
+
+00:12:44.560 --> 00:12:48.730 align:middle line:90%
+constraints involved a single variable
+so for example the colors in the
+
+00:12:48.730 --> 00:12:53.560 align:middle line:90%
+Australian upright so southern what
+southern Australia cannot be green or
+
+00:12:53.560 --> 00:12:57.490 align:middle line:90%
+southern Australia cannot be purple
+because the colors are green blue and
+
+00:12:57.490 --> 00:12:59.560 align:middle line:84%
+red a binary involve
+
+00:12:59.560 --> 00:13:03.730 align:middle line:90%
+superior variable so for example
+southern Australia cannot be of the same
+
+00:13:03.730 --> 00:13:09.700 align:middle line:90%
+color the same assignment as Western
+Australia for example right and there
+
+00:13:09.700 --> 00:13:12.970 align:middle line:90%
+might be a higher order which involved
+three or more which is which are the
+
+00:13:12.970 --> 00:13:15.940 align:middle line:90%
+ones that we just saw in the crypt
+automatic puzzle
+
+00:13:15.940 --> 00:13:24.160 align:middle line:90%
+well we can search if we have if we have
+a way of searching this right we can we
+
+00:13:24.160 --> 00:13:28.779 align:middle line:90%
+can do a death limited search with a
+constraint satisfaction constraint
+
+00:13:28.779 --> 00:13:31.120 align:middle line:84%
+satisfaction problem with n variables
+
+00:13:31.120 --> 00:13:38.680 align:middle line:90%
+ok so for example in the Australian we
+have on we have six variables for the
+
+00:13:38.680 --> 00:13:44.290 align:middle line:90%
+six states and each state has a domain
+size d in the the work of the Australian
+
+00:13:44.290 --> 00:13:46.510 align:middle line:84%
+puzzle this is three right
+
+00:13:46.510 --> 00:13:50.770 align:middle line:90%
+the branching factor of the top is going
+to be n times d because all assignments
+
+00:13:50.770 --> 00:13:56.140 align:middle line:90%
+are possible for all variables right now
+the next level you can have one less
+
+00:13:56.140 --> 00:14:00.850 align:middle line:90%
+assignment you know times the domain
+size right because you assign the first
+
+00:14:00.850 --> 00:14:06.730 align:middle line:90%
+one and then the rest can only have one
+less assignment right and in the end you
+
+00:14:06.730 --> 00:14:11.350 align:middle line:90%
+end up with n factorial times d2 the end
+leaves in this tree
+
+00:14:11.350 --> 00:14:17.770 align:middle line:90%
+ok now only due to the end possible
+assignments are completed assignments
+
+00:14:17.770 --> 00:14:23.710 align:middle line:90%
+right so this clearly is clearly a
+search problem that we have to optimize
+
+00:14:23.710 --> 00:14:31.930 align:middle line:90%
+somehow so one way of doing this is the
+backtracking and noting the following
+
+00:14:31.930 --> 00:14:37.270 align:middle line:90%
+the variable assignments are commutative
+so if i say Western Australia's red and
+
+00:14:37.270 --> 00:14:41.560 align:middle line:90%
+that implies the Northern Territory
+screen this is the same as in northern
+
+00:14:41.560 --> 00:14:45.459 align:middle line:90%
+note the church's green implies that
+Western Australia is right there
+
+00:14:45.459 --> 00:14:49.930 align:middle line:90%
+commutative so this factorial is is
+reduced now right if we only consider
+
+00:14:49.930 --> 00:14:56.620 align:middle line:90%
+one combination right we're going to try
+to consider assignment to a single
+
+00:14:56.620 --> 00:15:00.010 align:middle line:90%
+variable pitch note and then what
+happens is that if we find an
+
+00:15:00.010 --> 00:15:05.980 align:middle line:90%
+inconsistent or an illegal value on an
+assignment will backtrack ok
+
+00:15:05.980 --> 00:15:12.579 align:middle line:90%
+this can solve the endpoints for an
+approximately 25 from our values it
+
+00:15:12.579 --> 00:15:21.040 align:middle line:90%
+quite so it will see that in a bit
+alright so backtracking the algorithm
+
+00:15:21.040 --> 00:15:27.970 align:middle line:90%
+for backtracking is basically a depth
+first visit on the assignments but
+
+00:15:27.970 --> 00:15:36.489 align:middle line:90%
+here's the the the the the important
+lines if the value is consistent with
+
+00:15:36.489 --> 00:15:41.259 align:middle line:90%
+the assignment there we add this value
+to the assignment
+
+00:15:41.259 --> 00:15:49.449 align:middle line:90%
+ok then we do all possible inferences in
+our tree because for example if we have
+
+00:15:49.449 --> 00:15:55.600 align:middle line:90%
+the australia in australia of fossil
+here right and we assign some color here
+
+00:15:55.600 --> 00:16:01.749 align:middle line:90%
+and some color here some color here we
+already we can infer what the color
+
+00:16:01.749 --> 00:16:06.309 align:middle line:90%
+should be here right where we assigned
+two colors because there's only three
+
+00:16:06.309 --> 00:16:10.839 align:middle line:90%
+colors two colors we can already affair
+what this color is going to be so we
+
+00:16:10.839 --> 00:16:14.410 align:middle line:90%
+don't need to actually make it part of
+the assignment right we just do all the
+
+00:16:14.410 --> 00:16:18.610 align:middle line:90%
+possible inferences and then we continue
+with the next variable which would be
+
+00:16:18.610 --> 00:16:24.669 align:middle line:90%
+this one to assign ok that's the idea of
+of this that's that's one important
+
+00:16:24.669 --> 00:16:32.619 align:middle line:90%
+point of this of this tree visiting a we
+do the inferences if we encounter that
+
+00:16:32.619 --> 00:16:37.149 align:middle line:90%
+the inference are going to lead to a
+failure i mean if if the influences of
+
+00:16:37.149 --> 00:16:40.299 align:middle line:84%
+do not lead to failure
+
+00:16:40.299 --> 00:16:44.889 align:middle line:90%
+we're going to add all the assignments
+that we've referred to the global
+
+00:16:44.889 --> 00:16:45.819 align:middle line:84%
+assignments
+
+00:16:45.819 --> 00:16:55.149 align:middle line:90%
+okay and then we will just recursively
+call this function now at the end once
+
+00:16:55.149 --> 00:16:59.949 align:middle line:90%
+all the assignments are done if the
+result is not a failure then return that
+
+00:16:59.949 --> 00:17:05.769 align:middle line:90%
+result now if this condition fails for
+this condition fails or value is not
+
+00:17:05.769 --> 00:17:10.240 align:middle line:90%
+consistent with the assignment right
+then other values are going to be tried
+
+00:17:10.240 --> 00:17:14.589 align:middle line:90%
+once all the values are tried and
+nothing is consistent what happens is
+
+00:17:14.589 --> 00:17:19.000 align:middle line:90%
+you're going to remove that value right
+we're going to remove that value and
+
+00:17:19.000 --> 00:17:22.480 align:middle line:90%
+inferences from the assignment and we're
+going to start you know we're gonna
+
+00:17:22.480 --> 00:17:26.859 align:middle line:90%
+start with the next one so on and so
+forth evolves fails then we'll return
+
+00:17:26.859 --> 00:17:32.950 align:middle line:90%
+failure no solutions found for example
+let's start with this map right that the
+
+00:17:32.950 --> 00:17:40.929 align:middle line:90%
+map of Australia and we have all of our
+choices here right we have read for
+
+00:17:40.929 --> 00:17:46.000 align:middle line:90%
+Western Australian let's start with
+Western with Western Australia first
+
+00:17:46.000 --> 00:17:53.350 align:middle line:90%
+ok that's the state and we're looking at
+right now we have this through possible
+
+00:17:53.350 --> 00:17:55.539 align:middle line:90%
+assignments let's look at this branch
+now
+
+00:17:55.539 --> 00:18:00.850 align:middle line:90%
+ok now we're gonna not only Western
+Australia but now we're going to assign
+
+00:18:00.850 --> 00:18:07.270 align:middle line:90%
+the northern territories collar now so
+far so good
+
+00:18:07.270 --> 00:18:13.570 align:middle line:90%
+let's continue with the assigned
+possible assignments for this one so
+
+00:18:13.570 --> 00:18:19.029 align:middle line:90%
+then we want to assign queensland the
+collar right here's here's an
+
+00:18:19.029 --> 00:18:19.840 align:middle line:84%
+interesting
+
+00:18:19.840 --> 00:18:24.190 align:middle line:90%
+here's an interesting thing yeah we can
+send breslin a color right red or blue
+
+00:18:24.190 --> 00:18:29.230 align:middle line:90%
+and if we were to follow this one
+forward to make inferences here right
+
+00:18:29.230 --> 00:18:33.490 align:middle line:90%
+it will infer something that's illegal
+there's no color that can go here right
+
+00:18:33.490 --> 00:18:38.919 align:middle line:90%
+so once the inferences are made after we
+assign this color we will never pursue
+
+00:18:38.919 --> 00:18:40.240 align:middle line:84%
+this branch
+
+00:18:40.240 --> 00:18:45.100 align:middle line:90%
+ok we'll only pursue this one and if we
+find something it was it would find
+
+00:18:45.100 --> 00:18:48.279 align:middle line:90%
+something that's illegal again we'll
+backtrack and you know not pursue this
+
+00:18:48.279 --> 00:18:49.750 align:middle line:84%
+will pursue others
+
+00:18:49.750 --> 00:18:56.710 align:middle line:90%
+ok however there are many ways in which
+this can be optimized for example when
+
+00:18:56.710 --> 00:19:03.309 align:middle line:90%
+we're at this tab right it might be
+advisable to assign the color for the
+
+00:19:03.309 --> 00:19:06.789 align:middle line:84%
+southern Australia province
+
+00:19:06.789 --> 00:19:10.779 align:middle line:90%
+ok maybe useful to sign this one because
+this one is the one that's going to get
+
+00:19:10.779 --> 00:19:16.210 align:middle line:90%
+us more bent for the back if this is say
+cannot be green cannot be read
+
+00:19:16.210 --> 00:19:21.460 align:middle line:90%
+there's only one color for this guy
+where there's two colors for the state
+
+00:19:21.460 --> 00:19:27.159 align:middle line:90%
+right there's this one can be can be in
+the case that is green
+
+00:19:27.159 --> 00:19:32.049 align:middle line:90%
+this one can be blue or it can be read
+but this one has only one possible
+
+00:19:32.049 --> 00:19:33.190 align:middle line:84%
+assignment
+
+00:19:33.190 --> 00:19:37.810 align:middle line:90%
+perhaps you want to just sign this one
+and then continue that way the trees
+
+00:19:37.810 --> 00:19:46.120 align:middle line:90%
+gonna is gonna do a lot less backtracks
+in the future so as I can I just
+
+00:19:46.120 --> 00:19:49.570 align:middle line:90%
+illustrate it is really important to
+know how to choose the next variable
+
+00:19:49.570 --> 00:19:58.870 align:middle line:90%
+that you're going to test 111 way of
+looking at this is to choose what's
+
+00:19:58.870 --> 00:20:04.960 align:middle line:90%
+going to become the the minimum
+remaining value so let's look at a
+
+00:20:04.960 --> 00:20:10.180 align:middle line:90%
+variable or mrv let's look at this is a
+heuristic that it's going to look at the
+
+00:20:10.180 --> 00:20:13.840 align:middle line:90%
+value with the fewest legal values in
+this case right
+
+00:20:13.840 --> 00:20:17.530 align:middle line:90%
+southern Australia is the one with the
+fewest legal values at this step is it
+
+00:20:17.530 --> 00:20:22.000 align:middle line:90%
+can only be blue right so there's one
+big value where this one has to legal
+
+00:20:22.000 --> 00:20:23.980 align:middle line:84%
+values
+
+00:20:23.980 --> 00:20:30.130 align:middle line:90%
+that's the minimum remaining values it's
+it's it really improves the search a lot
+
+00:20:30.130 --> 00:20:35.650 align:middle line:90%
+there's degree here mystics basically
+pick the variable that's involved in
+
+00:20:35.650 --> 00:20:40.030 align:middle line:90%
+most constraints because if you pick
+that variable you already reduced the
+
+00:20:40.030 --> 00:20:44.530 align:middle line:90%
+this the domains on the other variables
+right so if I pick again degree here is
+
+00:20:44.530 --> 00:20:45.460 align:middle line:84%
+similar
+
+00:20:45.460 --> 00:20:50.380 align:middle line:90%
+this one is the one that's involved with
+more states here because almost all
+
+00:20:50.380 --> 00:20:55.900 align:middle line:90%
+states but menya touches southern
+Australia so maybe I want to pick this
+
+00:20:55.900 --> 00:20:59.350 align:middle line:90%
+value first actually I could start
+instead of starting with Western
+
+00:20:59.350 --> 00:21:07.570 align:middle line:90%
+Australia or the I could have started
+with immediately start coloring this
+
+00:21:07.570 --> 00:21:12.850 align:middle line:90%
+south australia right away so then i
+have less choices for these others and
+
+00:21:12.850 --> 00:21:18.160 align:middle line:90%
+the tree might be smaller and then
+there's another one that looks ahead
+
+00:21:18.160 --> 00:21:23.920 align:middle line:90%
+another heuristic that is used it's the
+least constraining value the idea here
+
+00:21:23.920 --> 00:21:25.630 align:middle line:84%
+is to look
+
+00:21:25.630 --> 00:21:31.120 align:middle line:90%
+Oh what are the ones that are going to
+have the most slack in terms of values
+
+00:21:31.120 --> 00:21:35.470 align:middle line:90%
+that I can assign to them right and then
+the things that this looks ahead a
+
+00:21:35.470 --> 00:21:40.750 align:middle line:90%
+little bit and will prefer that the
+trees that generate more flexibility for
+
+00:21:40.750 --> 00:21:44.650 align:middle line:84%
+the future now we can always have
+
+00:21:44.650 --> 00:21:49.390 align:middle line:90%
+check for constraint consistency and we
+can do this is called inference so we
+
+00:21:49.390 --> 00:21:53.800 align:middle line:90%
+always whatever assignment we do we try
+to infer whether it's gonna weather it
+
+00:21:53.800 --> 00:21:57.550 align:middle line:90%
+conflicts with something else and one
+algorithm to do this is the our
+
+00:21:57.550 --> 00:22:03.220 align:middle line:90%
+consistency 3 this is ac3 this is an
+algorithm from the seventies
+
+00:22:03.220 --> 00:22:07.240 align:middle line:90%
+it's called three because of the paper
+that was published this was the third
+
+00:22:07.240 --> 00:22:11.500 align:middle line:90%
+algorithm and it is you can look for
+this in wikipedia it makes a lot of
+
+00:22:11.500 --> 00:22:18.070 align:middle line:90%
+sense it has a stack with pairs of of of
+link note so as soon as soon as I
+
+00:22:18.070 --> 00:22:21.610 align:middle line:90%
+constraint satisfaction problem is
+represented as a graph
+
+00:22:21.610 --> 00:22:28.570 align:middle line:90%
+ok then we want to find the art of the
+consistency between these RX there's
+
+00:22:28.570 --> 00:22:35.410 align:middle line:90%
+another way of improving the tree
+exploration and that's called forward
+
+00:22:35.410 --> 00:22:40.600 align:middle line:90%
+checking and this really saves a lot of
+time and forward checking what it does
+
+00:22:40.600 --> 00:22:45.460 align:middle line:90%
+is basically it looks at each variable X
+in the constraint satisfaction problem
+
+00:22:45.460 --> 00:22:50.830 align:middle line:90%
+and for each variable for each and
+assign variable ok why that it's
+
+00:22:50.830 --> 00:22:55.270 align:middle line:90%
+connected to the to the variable that
+I'm exciting right now and for each of
+
+00:22:55.270 --> 00:23:01.600 align:middle line:90%
+the values d in the domain of that
+variable i will see it d is inconsistent
+
+00:23:01.600 --> 00:23:08.710 align:middle line:90%
+with the value that I have assigned x
+then I'll take that that value from the
+
+00:23:08.710 --> 00:23:12.640 align:middle line:90%
+domain and then I'll do this for every
+very well every time we do an assignment
+
+00:23:12.640 --> 00:23:17.440 align:middle line:90%
+i'll pass the constraint satisfaction
+problem with the assignments as a
+
+00:23:17.440 --> 00:23:22.030 align:middle line:90%
+forward checking i will check and reduce
+the domain of the variables that would
+
+00:23:22.030 --> 00:23:26.590 align:middle line:90%
+be in conflict and i'll return the new
+CSP with the modified domains for
+
+00:23:26.590 --> 00:23:33.310 align:middle line:90%
+example let's say we have the Australian
+map right so the Westralian northern
+
+00:23:33.310 --> 00:23:42.010 align:middle line:90%
+territory queensland new south wales
+victoria southern Australia and Tasmania
+
+00:23:42.010 --> 00:23:47.740 align:middle line:90%
+the domain for all of this is red green
+or blue at this point but now let's
+
+00:23:47.740 --> 00:23:52.510 align:middle line:90%
+assign read to Western Australia so
+after Western Australia's read here
+
+00:23:52.510 --> 00:23:57.610 align:middle line:90%
+right then the northern traders can only
+be green or blue
+
+00:23:57.610 --> 00:24:04.000 align:middle line:90%
+queensland can only be red green or blue
+the north north of New South Wales can
+
+00:24:04.000 --> 00:24:09.280 align:middle line:90%
+be a red green or blue Victoria regular
+blue now South Australia can be only
+
+00:24:09.280 --> 00:24:14.470 align:middle line:90%
+green blue and the just mean it can be
+any color so then we assigned for
+
+00:24:14.470 --> 00:24:17.620 align:middle line:84%
+example queensland green ok
+
+00:24:17.620 --> 00:24:23.320 align:middle line:90%
+queensland green now the northern
+territories can only be blue new south
+
+00:24:23.320 --> 00:24:29.799 align:middle line:90%
+wales only red and blue and South
+Australian only blue then we'll assign
+
+00:24:29.799 --> 00:24:36.160 align:middle line:90%
+Victoria blue right so one of these so
+I'm keeping assignments here that I know
+
+00:24:36.160 --> 00:24:39.429 align:middle line:90%
+what are all the possible assignments so
+i don't have to explore them all right
+
+00:24:39.429 --> 00:24:44.799 align:middle line:90%
+so then I think Victoria blue for
+example here right and so on and so
+
+00:24:44.799 --> 00:24:54.190 align:middle line:90%
+forth but we realize one thing here
+there's no possible domain here in South
+
+00:24:54.190 --> 00:25:01.059 align:middle line:90%
+Australia this is failure if before
+checking finds no potential domain no
+
+00:25:01.059 --> 00:25:05.740 align:middle line:90%
+domain variables in one of no domain
+values for one of the variables
+
+00:25:05.740 --> 00:25:10.660 align:middle line:90%
+okay then it's a failure right and then
+if it returns failure algorithm should
+
+00:25:10.660 --> 00:25:12.130 align:middle line:84%
+backtrack as well
+
+00:25:12.130 --> 00:25:21.820 align:middle line:90%
+now one last algorithm in constraint
+satisfaction problems one less
+
+00:25:21.820 --> 00:25:28.870 align:middle line:90%
+consideration is that we can change
+variables using heuristics for one
+
+00:25:28.870 --> 00:25:34.870 align:middle line:90%
+heuristic that is very useful is the one
+of minimum conflicts we want to check
+
+00:25:34.870 --> 00:25:40.419 align:middle line:90%
+which assignments which values of
+assignments produce the minimum amount
+
+00:25:40.419 --> 00:25:41.860 align:middle line:84%
+of conflicts
+
+00:25:41.860 --> 00:25:49.480 align:middle line:90%
+ok so in this in this way we can check
+this for a number of steps before giving
+
+00:25:49.480 --> 00:25:49.809 align:middle line:84%
+up
+
+00:25:49.809 --> 00:25:55.840 align:middle line:90%
+okay otherwise we might be doing this
+for for a while and the idea here is
+
+00:25:55.840 --> 00:26:00.760 align:middle line:90%
+that we will look at variables will look
+at current assignments
+
+00:26:00.760 --> 00:26:05.890 align:middle line:90%
+ok to see if there a solution for the
+constraint satisfaction problem if if
+
+00:26:05.890 --> 00:26:08.490 align:middle line:90%
+they are the assignments solution then
+return it
+
+00:26:08.490 --> 00:26:12.059 align:middle line:90%
+if not we're going to create a variable
+that is going to be a randomly chosen
+
+00:26:12.059 --> 00:26:16.260 align:middle line:90%
+conflicted variable in csb we're going
+to look for a conflicted variable in
+
+00:26:16.260 --> 00:26:17.520 align:middle line:84%
+this assignment
+
+00:26:17.520 --> 00:26:25.080 align:middle line:90%
+ok and for this value we're going to
+pick we're gonna pick we're going to
+
+00:26:25.080 --> 00:26:28.800 align:middle line:90%
+look at that variable and we're going to
+pick the value that minimizes conflicts
+
+00:26:28.800 --> 00:26:34.740 align:middle line:90%
+and we'll put that in current and then
+we're going to do this for however many
+
+00:26:34.740 --> 00:26:40.050 align:middle line:90%
+steps right and at some point current
+will be the solution if not then we'll
+
+00:26:40.050 --> 00:26:46.800 align:middle line:90%
+return failure but just doing this
+algorithm improves a lot of things so as
+
+00:26:46.800 --> 00:26:51.240 align:middle line:90%
+an example here we have the Queen's
+problem right and these are the number
+
+00:26:51.240 --> 00:26:57.360 align:middle line:90%
+of conflicts that i will have if i move
+the Queen at each one of these tips so
+
+00:26:57.360 --> 00:27:02.100 align:middle line:90%
+of course i want to move it to one of
+the ones right randomly i love it to
+
+00:27:02.100 --> 00:27:03.120 align:middle line:84%
+this one
+
+00:27:03.120 --> 00:27:07.559 align:middle line:90%
+now there's a conflict with this Queen
+this Queen has to move to the point of
+
+00:27:07.559 --> 00:27:09.780 align:middle line:84%
+minimum conflict and here's 20
+
+00:27:09.780 --> 00:27:17.610 align:middle line:90%
+I this this here the conflict 20 and I
+move it there so by looking by doing
+
+00:27:17.610 --> 00:27:22.050 align:middle line:90%
+backtracking and loading at the minimum
+number of conflicts to pick the next
+
+00:27:22.050 --> 00:27:27.059 align:middle line:90%
+note and also doing forward checking
+your algorithms can be improved a lot
+
+00:27:27.059 --> 00:27:34.170 align:middle line:90%
+for example for the in-between problems
+doing a lot of and bring problems for n
+
+00:27:34.170 --> 00:27:43.200 align:middle line:90%
+I believe a tail end till end as a 100 i
+think look at look at what the
+
+00:27:43.200 --> 00:27:51.809 align:middle line:90%
+algorithms reported here so just using
+backtracking ok we're going to do that
+
+00:27:51.809 --> 00:27:56.130 align:middle line:90%
+the entrance by the way I'm sorry then
+quinces to queens all the way until 15
+
+00:27:56.130 --> 00:28:00.150 align:middle line:90%
+so find the solution for all those
+problems right with backtracking over
+
+00:28:00.150 --> 00:28:07.620 align:middle line:90%
+40,000 thousand right so over 40 million
+iterations ok and it could not find the
+
+00:28:07.620 --> 00:28:11.370 align:middle line:90%
+solution that's why it's inbred using
+former checking for the same problem
+
+00:28:11.370 --> 00:28:12.990 align:middle line:84%
+again
+
+00:28:12.990 --> 00:28:17.309 align:middle line:90%
+it gave over 40 million iterations
+without finding the solution now using
+
+00:28:17.309 --> 00:28:18.929 align:middle line:84%
+the minimal conflict
+
+00:28:18.929 --> 00:28:20.999 align:middle line:84%
+it was only 4,000 iterations
+
+00:28:20.999 --> 00:28:26.459 align:middle line:90%
+found the solution to all in queens
+parcels from two queens to 2050 queens
+
+00:28:26.459 --> 00:28:32.819 align:middle line:90%
+now the same problem that we looked at
+this electric with Australia has been
+
+00:28:32.819 --> 00:28:39.539 align:middle line:90%
+proven there with the united states
+states the idea here for the for the
+
+00:28:39.539 --> 00:28:44.279 align:middle line:90%
+united states of america is with four
+colors can we color all states of the
+
+00:28:44.279 --> 00:28:48.659 align:middle line:90%
+united states of america with four
+colors such that no adjacent state has
+
+00:28:48.659 --> 00:28:54.149 align:middle line:90%
+the same color backtracking alone 2 1
+million iterations and it didn't find a
+
+00:28:54.149 --> 00:28:58.619 align:middle line:90%
+solution return failure for checking
+though selecting with forward checking
+
+00:28:58.619 --> 00:29:04.229 align:middle line:90%
+juices gives the solution 2000 relations
+and if you use the minimal conflicts
+
+00:29:04.229 --> 00:29:08.459 align:middle line:90%
+algorithm it gives you a solution 64
+iteration notice there's no connects to
+
+00:29:08.459 --> 00:29:14.339 align:middle line:90%
+this just 64 durations and there's a
+very famous problem the zebra problem
+
+00:29:14.339 --> 00:29:24.209 align:middle line:90%
+ok in which the the zebra problem goes
+goes a little bit like this try to solve
+
+00:29:24.209 --> 00:29:28.349 align:middle line:90%
+this problem there are five houses the
+Englishman lives on the Red House the
+
+00:29:28.349 --> 00:29:32.759 align:middle line:90%
+Spaniard owns the dog coffee strong on
+the greenhouse the Ukrainian drinks tea
+
+00:29:32.759 --> 00:29:39.269 align:middle line:90%
+and so on and so forth they give you
+five houses they give you some
+
+00:29:39.269 --> 00:29:42.509 align:middle line:90%
+nationalities of the people that are
+there you know that the five house they
+
+00:29:42.509 --> 00:29:46.559 align:middle line:90%
+have some people from five different
+nationalities they're painted in
+
+00:29:46.559 --> 00:29:52.649 align:middle line:90%
+different colors people smoke five
+different brands of cigarettes and they
+
+00:29:52.649 --> 00:29:56.639 align:middle line:90%
+drink different things and they have
+different pets so they tell you a little
+
+00:29:56.639 --> 00:30:01.469 align:middle line:90%
+bit about each Hauser each nationality
+or each pad or each habit and you have
+
+00:30:01.469 --> 00:30:06.419 align:middle line:90%
+to figure out where the zebra lives and
+where people go to drink water
+
+00:30:06.419 --> 00:30:14.009 align:middle line:90%
+well with backtracking this can be
+solved in about 4 million iterations for
+
+00:30:14.009 --> 00:30:20.129 align:middle line:90%
+checking 35,000 and with minimal
+conflicts only 2,000 so these algorithms
+
+00:30:20.129 --> 00:30:25.679 align:middle line:90%
+do improve on each other and build upon
+the other algorithms that we've that
+
+00:30:25.679 --> 00:30:30.679 align:middle line:84%
+we've looked in other videos

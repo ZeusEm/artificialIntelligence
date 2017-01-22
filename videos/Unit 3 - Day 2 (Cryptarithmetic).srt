@@ -1,0 +1,1522 @@
+﻿1
+00:00:00,000 --> 00:00:04,290
+morning class sorry I can't be there
+this morning
+
+2
+00:00:04,290 --> 00:00:09,030
+arm but it's ok we'll just do this over
+video and today we're going to pick up
+
+3
+00:00:09,030 --> 00:00:14,040
+where we left off on friday we are in
+unit 3 talking about eliminating
+
+4
+00:00:14,040 --> 00:00:16,980
+possibilities to solve problems
+
+5
+00:00:16,980 --> 00:00:20,850
+today's problems are all going to be
+very similar the same type of problems
+
+6
+00:00:20,850 --> 00:00:27,000
+all day long and they're called crypt
+arithmetic problems and they're not
+
+7
+00:00:27,000 --> 00:00:28,980
+exactly easy
+
+8
+00:00:28,980 --> 00:00:32,940
+ok they might not come easy to you at
+first but I think with a little bit of
+
+9
+00:00:32,940 --> 00:00:36,989
+practice you'll understand them and
+you'll get them and you'll do perfectly
+
+10
+00:00:36,989 --> 00:00:42,059
+fine arm after all things that are
+worthwhile are difficult
+
+11
+00:00:42,059 --> 00:00:45,329
+so if they were all easy problems this
+class will be very fun but the whole
+
+12
+00:00:45,329 --> 00:00:48,539
+point is to challenge you and and push
+you and I think that these problems
+
+13
+00:00:48,539 --> 00:00:51,899
+today will will help push you armed
+
+14
+00:00:51,899 --> 00:00:55,350
+I'm going to go through a few examples
+with you today
+
+15
+00:00:55,350 --> 00:00:59,430
+if at any time in the video though you
+want to try the problem without hearing
+
+16
+00:00:59,430 --> 00:01:00,480
+the answer
+
+17
+00:01:00,480 --> 00:01:05,250
+you can pause the video try and work the
+problem out in your notes and see how
+
+18
+00:01:05,250 --> 00:01:08,880
+you do and then play the video to see if
+you got the same thing as me so that's
+
+19
+00:01:08,880 --> 00:01:13,530
+always a good strategy when you're
+watching these videos to practice before
+
+20
+00:01:13,530 --> 00:01:17,430
+you hear the answer and then go ahead
+and play it and see if you got the same
+
+21
+00:01:17,430 --> 00:01:18,900
+answers me
+
+22
+00:01:18,900 --> 00:01:23,430
+all right let's get started with the
+first problem here the first problem is
+
+23
+00:01:23,430 --> 00:01:26,520
+called life on the farm and this is how
+it goes
+
+24
+00:01:26,520 --> 00:01:31,530
+a meal and all have live on a farm with
+their father Gordon one day email asked
+
+25
+00:01:31,530 --> 00:01:36,990
+his father dad what happened to that cat
+we used to have all over heard this and
+
+26
+00:01:36,990 --> 00:01:42,960
+said yeah and we used to have a horse to
+Gordon replied that Tomcat and that old
+
+27
+00:01:42,960 --> 00:01:44,490
+nag were no use
+
+28
+00:01:44,490 --> 00:01:49,770
+I traded them for our new goat email
+said hey that sounds like a good script
+
+29
+00:01:49,770 --> 00:01:51,360
+arithmetic problem
+
+30
+00:01:51,360 --> 00:01:55,770
+come on all of let's see if we can solve
+it they wrote down tom
+
+31
+00:01:55,770 --> 00:02:03,240
+Plus nag equals goat each letter stands
+for a different digits 0 through 9 no 2
+
+32
+00:02:03,240 --> 00:02:07,469
+letters stand for the same digit
+determine which digit each letter
+
+33
+00:02:07,469 --> 00:02:08,410
+represents
+
+34
+00:02:08,410 --> 00:02:14,440
+all right and that's kind of a lot of
+language there but let's go to the next
+
+35
+00:02:14,440 --> 00:02:17,230
+slide and I kind of laid out what this
+problem
+
+36
+00:02:17,230 --> 00:02:24,790
+looks like all right I apologize for my
+sloppy handwriting but this is what the
+
+37
+00:02:24,790 --> 00:02:26,650
+problem looks like we're trying to add
+up
+
+38
+00:02:26,650 --> 00:02:32,590
+Tom plus nag to equal goat and if you
+can see over on the right-hand side
+
+39
+00:02:32,590 --> 00:02:37,990
+each letter has a different possibility
+for which number it could be for
+
+40
+00:02:37,990 --> 00:02:38,590
+instance
+
+41
+00:02:38,590 --> 00:02:45,280
+t it could be zero one two three four
+five six seven eight or nine
+
+42
+00:02:45,280 --> 00:02:52,960
+notice that he cannot be 10 or 25 each
+letter can only be one digit 0 through 9
+
+43
+00:02:53,560 --> 00:03:00,640
+the other thing that we need to know is
+that if t were five for instance then M
+
+44
+00:03:00,640 --> 00:03:03,070
+could not be five because it
+
+45
+00:03:03,070 --> 00:03:11,049
+the number can't repeat ok also kind of
+along the same lines if the tea and tom
+
+46
+00:03:11,050 --> 00:03:17,020
+was five then the tea and goat would
+also have to be five
+
+47
+00:03:17,020 --> 00:03:23,620
+ok so we're trying to figure out what
+each letter represents what number does
+
+48
+00:03:23,620 --> 00:03:28,060
+each letter represent all right so let's
+walk through this i'm going to go kind
+
+49
+00:03:28,060 --> 00:03:30,040
+of slow on this first one here
+
+50
+00:03:30,040 --> 00:03:36,340
+let's walk through this step-by-step the
+first letter that I know for sure is i
+
+51
+00:03:36,340 --> 00:03:40,780
+know that G has to be a one and let me
+try and explain that here
+
+52
+00:03:41,290 --> 00:03:47,829
+I think that G has to be one the reason
+why I think that G has to be one is the
+
+53
+00:03:47,830 --> 00:03:52,810
+biggest number that T could be would be
+nine
+
+54
+00:03:52,810 --> 00:03:59,800
+ok that's the biggest number possible 40
+and 50 is nine the biggest number that
+
+55
+00:03:59,800 --> 00:04:07,959
+end could possibly be would be 80 k & 9
++ 8
+
+56
+00:04:07,959 --> 00:04:13,420
+those are the biggest possible answers
+that they could be in 9 + ape only adds
+
+57
+00:04:13,420 --> 00:04:15,040
+up to 17
+
+58
+00:04:15,040 --> 00:04:21,789
+so see how that g at the show then would
+be a seven and I'd carry the war
+
+59
+00:04:21,790 --> 00:04:29,380
+one and the g would be a 1 see that
+there's no way that she could be a three
+
+60
+00:04:29,380 --> 00:04:34,600
+for instance because there's no way that
+T plus n could add up to 30 something
+
+61
+00:04:34,600 --> 00:04:39,400
+right the biggest that T plus n could
+add up to a 17
+
+62
+00:04:39,400 --> 00:04:44,830
+so that's why I know that g must be one
+and I don't know about
+
+63
+00:04:44,830 --> 00:04:49,060
+Oh or n or tea
+
+64
+00:04:49,060 --> 00:04:56,770
+I don't know about any of those yet arm
+but I do know that g must be one
+
+65
+00:04:56,770 --> 00:05:01,719
+ok and if the g and goat is one than the
+g and meg is also one so i'm going to
+
+66
+00:05:01,720 --> 00:05:05,590
+put a one there by that G over all my
+letters over here
+
+67
+00:05:05,590 --> 00:05:10,060
+hopefully you can jot down something
+like this on your notes because what i
+
+68
+00:05:10,060 --> 00:05:14,260
+want to do is I want to eliminate
+possibilities so I know that g is 1 i'm
+
+69
+00:05:14,260 --> 00:05:17,620
+going to go ahead and circle the one
+down there by G which means i can
+
+70
+00:05:17,620 --> 00:05:22,330
+eliminate the 0 in the 2 and the 3 and
+the 4 and the 5 and the 6 and 7 and the
+
+71
+00:05:22,330 --> 00:05:23,620
+eight and the nine
+
+72
+00:05:23,620 --> 00:05:28,300
+the other thing that I can do is I can
+eliminate the other letters i know that
+
+73
+00:05:28,300 --> 00:05:35,290
+a cannot be won I know that end cannot
+be won em cannot be 10 cannot be 1 and T
+
+74
+00:05:35,290 --> 00:05:36,520
+cannot be won
+
+75
+00:05:36,520 --> 00:05:40,599
+ok so already now I've eliminated some
+possibilities
+
+76
+00:05:41,110 --> 00:05:47,710
+alright the next thing that I'm looking
+at as I look at this problem and this is
+
+77
+00:05:47,710 --> 00:05:49,120
+not easy
+
+78
+00:05:49,120 --> 00:05:55,480
+hey it's kind of difficult no doubt
+about it but when i look at the this
+
+79
+00:05:55,480 --> 00:06:03,610
+Oh plus a equals a the oh and Tom the a
+and nag and the a and go 0 plus a equals
+
+80
+00:06:03,610 --> 00:06:04,840
+a
+
+81
+00:06:04,840 --> 00:06:07,960
+okay or you know something
+
+82
+00:06:08,740 --> 00:06:11,890
+plus a equals a
+
+83
+00:06:11,890 --> 00:06:17,020
+alright so when I think about that I
+think that
+
+84
+00:06:17,020 --> 00:06:29,650
+Oh must have to be 0 because 0 plus a
+would equal a right 0 plus 4 is 40 plus
+
+85
+00:06:29,650 --> 00:06:33,099
+8 is 8 so i think that the 0 in
+
+86
+00:06:33,660 --> 00:06:41,040
+arm has to be a 0 and if that o is a0
+than the Owen goat also has to be a zero
+
+87
+00:06:41,040 --> 00:06:45,390
+so i'm going to go ahead and fill those
+in 20 so I'm my own up here i'm going to
+
+88
+00:06:45,390 --> 00:06:51,000
+circle the zero cross out the two three
+four five six seven eight and nine
+
+89
+00:06:51,780 --> 00:07:00,239
+cross out the ont & M and N and a ok
+I've eliminated some possibilities here
+
+90
+00:07:00,750 --> 00:07:04,590
+I know that the 0 is 0 the g is one
+
+91
+00:07:04,590 --> 00:07:11,969
+now let's look at this T plus n t plus n
+t plus n has to equal 10
+
+92
+00:07:12,930 --> 00:07:19,170
+ok so there's only so many numbers that
+can add up to ten one thing is 5 plus 5
+
+93
+00:07:19,170 --> 00:07:20,430
+equals 10
+
+94
+00:07:20,430 --> 00:07:24,930
+but if t is five then n can't be five so
+i know that that's not the right answer
+
+95
+00:07:25,590 --> 00:07:31,260
+ok so at this point what you can do is
+you can just kind of make some guesses
+
+96
+00:07:31,260 --> 00:07:33,900
+and try it and see if it works out
+
+97
+00:07:33,900 --> 00:07:37,530
+and if it doesn't work out then at least
+you know that that's not the answer and
+
+98
+00:07:37,530 --> 00:07:45,419
+you can eliminate that possibility but
+for me I know that 7 plus 3 equals 10
+
+99
+00:07:45,420 --> 00:07:51,570
+so i'm going to go ahead and try that
+i'm going to try seven for my tea and
+
+100
+00:07:51,570 --> 00:07:58,200
+three for my end and if the tea and
+Thomas seven then the tea and goat must
+
+101
+00:07:58,200 --> 00:07:59,099
+be seven
+
+102
+00:07:59,100 --> 00:08:04,950
+ok so i'm going to go ahead and circle
+those ones over here i think t might be
+
+103
+00:08:04,950 --> 00:08:12,750
+seven so I'm going to eliminate the
+other numbers that also means that m is
+
+104
+00:08:12,750 --> 00:08:16,710
+not seven and n is not seven and a is
+not seven
+
+105
+00:08:16,710 --> 00:08:22,169
+I think that the n is 3 so I'm going to
+circle 34 n cross out the other numbers
+
+106
+00:08:22,169 --> 00:08:28,890
+ok which means that m is not 3a is not
+three
+
+107
+00:08:28,890 --> 00:08:31,050
+there we go
+
+108
+00:08:31,050 --> 00:08:35,430
+i'm going down to just a few
+possibilities now all right let's look
+
+109
+00:08:35,429 --> 00:08:35,909
+at that
+
+110
+00:08:35,909 --> 00:08:41,610
+em up there that m m+ one has to equal 7
+
+111
+00:08:42,149 --> 00:08:50,310
+so that means that M must be six right
+because six plus one equals seven so m
+
+112
+00:08:50,310 --> 00:08:54,089
+is six cross out the other possibilities
+
+113
+00:08:56,310 --> 00:08:59,729
+I know that a can't be six
+
+114
+00:08:59,730 --> 00:09:07,740
+ok excellent and so now the only letter
+that i'm left with is a ok and when I
+
+115
+00:09:07,740 --> 00:09:12,959
+look at my possibilities for a a could
+be 245 eight or nine
+
+116
+00:09:12,959 --> 00:09:16,920
+as long as I choose any of those numbers
+I think this problem is going to work
+
+117
+00:09:16,920 --> 00:09:17,729
+out
+
+118
+00:09:17,730 --> 00:09:21,420
+so let's just choose i think five is a
+lucky number so i'm going to choose 5
+
+119
+00:09:21,420 --> 00:09:28,140
+for a and if the day and nag is five and
+the a and goat must be five guys on the
+
+120
+00:09:28,140 --> 00:09:31,439
+circle five cross out the other
+possibilities
+
+121
+00:09:31,440 --> 00:09:34,860
+there we go I've got it
+
+122
+00:09:34,860 --> 00:09:38,220
+ok so now what I want to do is I just
+want to double check my answer and make
+
+123
+00:09:38,220 --> 00:09:41,279
+sure that everything makes sense i'm
+going to start over on the right
+
+124
+00:09:41,279 --> 00:09:44,339
+six plus one equals seven
+
+125
+00:09:44,339 --> 00:09:48,300
+that makes sense zero plus 5 equals 5
+
+126
+00:09:48,300 --> 00:09:52,560
+that makes sense and seven plus three
+equals 10
+
+127
+00:09:52,560 --> 00:09:56,550
+that also makes sense so on this
+particular problem
+
+128
+00:09:56,550 --> 00:10:06,599
+one possible solution is 706 + 350 1
+equals 1057 ok and then this particular
+
+129
+00:10:06,600 --> 00:10:09,720
+problem there's more than one correct
+answer you could have had a couple
+
+130
+00:10:09,720 --> 00:10:14,250
+different things but that's how you end
+up with your answer
+
+131
+00:10:14,760 --> 00:10:18,209
+ok so let's try another problem
+
+132
+00:10:18,209 --> 00:10:22,050
+this next problem there's only one
+possible answer so that makes it a
+
+133
+00:10:22,050 --> 00:10:26,010
+little bit trickier in some ways but in
+some ways it also makes it a little bit
+
+134
+00:10:26,010 --> 00:10:28,890
+easier because you can eliminate more
+possibilities
+
+135
+00:10:28,890 --> 00:10:34,380
+ok let's look at the next problem the
+next problem is called the letter from
+
+136
+00:10:34,380 --> 00:10:36,300
+college and this is how it goes
+
+137
+00:10:36,300 --> 00:10:40,140
+the story goes that a young man away at
+college needed some extra cash
+
+138
+00:10:40,740 --> 00:10:43,550
+he sent his mother this plea
+
+139
+00:10:43,550 --> 00:10:48,290
+he wanted her to send the amount
+indicated by the following some send
+
+140
+00:10:48,290 --> 00:10:50,959
+plus more equals money
+
+141
+00:10:50,959 --> 00:10:55,010
+each letter stands for a different
+digits 0 through 9 no 2 letters stand
+
+142
+00:10:55,010 --> 00:10:56,360
+for the same digit
+
+143
+00:10:56,360 --> 00:10:59,990
+how much money did the young man want
+assume that there's a decimal point
+
+144
+00:10:59,990 --> 00:11:03,380
+between the end in the e because his
+mother is probably not willing to send
+
+145
+00:11:03,380 --> 00:11:06,769
+10,000 or so dollars to her son on
+request
+
+146
+00:11:06,769 --> 00:11:11,930
+alright so when I go to the next slide
+of them up again I apologize for the
+
+147
+00:11:11,930 --> 00:11:16,189
+sloppy handwriting but on this is how it
+what I've got of that sin
+
+148
+00:11:16,190 --> 00:11:19,670
+plus more equals money along the
+right-hand side
+
+149
+00:11:19,670 --> 00:11:23,750
+I just listed all of the letters that
+were in this problem
+
+150
+00:11:24,440 --> 00:11:30,050
+ok so there are one two three four five
+six seven eight letters in this problem
+
+151
+00:11:30,649 --> 00:11:35,510
+each letter has 10 possibilities ok so
+there's only so many possibilities a lot
+
+152
+00:11:35,510 --> 00:11:39,110
+of students get really really
+overwhelmed when they're solving these
+
+153
+00:11:39,110 --> 00:11:44,990
+problems but remember that there's only
+10 possibilities for each letter so if
+
+154
+00:11:44,990 --> 00:11:46,519
+you get stuck on a letter
+
+155
+00:11:46,519 --> 00:11:50,149
+the most you're going to have to try
+it's 10 different possibilities which
+
+156
+00:11:50,149 --> 00:11:53,570
+you probably want to try 10 because i'm
+sure you can eliminate some of those
+
+157
+00:11:53,570 --> 00:11:56,329
+possibilities from the start
+
+158
+00:11:56,329 --> 00:12:02,390
+ok but let's try not to get overwhelmed
+let's try this problem the first letter
+
+159
+00:12:02,390 --> 00:12:06,350
+that we should look at is that em out in
+front our money
+
+160
+00:12:06,350 --> 00:12:11,779
+ok because in the last problem we went
+through in realize that M has only one
+
+161
+00:12:11,779 --> 00:12:12,829
+possible choice
+
+162
+00:12:12,829 --> 00:12:18,560
+m must be equal to 1 ok and we kind of
+figured that out on the last problem so
+
+163
+00:12:18,560 --> 00:12:20,750
+m is equal to 1
+
+164
+00:12:20,750 --> 00:12:23,750
+I can eliminate some possibilities then
+
+165
+00:12:26,730 --> 00:12:33,480
+i know that s can be 1 & II can't be won
+and the 0 ry
+
+166
+00:12:34,170 --> 00:12:38,459
+none of those numbers can be one ok and
+if the am and money is one then the am
+
+167
+00:12:38,459 --> 00:12:40,319
+and more must be one
+
+168
+00:12:40,320 --> 00:12:43,649
+all right very good
+
+169
+00:12:43,649 --> 00:12:47,430
+next the next number that i personally
+see is this
+
+170
+00:12:47,430 --> 00:12:57,599
+s i know that s plus 1 has to equal 10
+or more because i need to carry this one
+
+171
+00:12:57,600 --> 00:12:59,730
+out here to the M and money
+
+172
+00:12:59,730 --> 00:13:03,240
+ok so s plus 1 has to equal 10 or more
+
+173
+00:13:03,240 --> 00:13:11,820
+well there's not you know s can't be 12
+or 13 at the biggest number that s could
+
+174
+00:13:11,820 --> 00:13:23,399
+be as nine and nine plus 1 is 10 ok so
+that's what it has to be s has to be 9
+
+175
+00:13:23,399 --> 00:13:31,230
+so 9 plus 1 is 10 let me get caught up
+over here i know that s must be nine so
+
+176
+00:13:31,230 --> 00:13:38,279
+it's not a date it's not seven cents
+it's by 4 30 to 40 and he's not nine
+
+177
+00:13:38,279 --> 00:13:44,220
+across all these possibilities out and
+all this crossing all this stuff out it
+
+178
+00:13:44,220 --> 00:13:48,839
+may seem like a bit of a trouble but
+when you get down towards the end of the
+
+179
+00:13:48,839 --> 00:13:53,760
+problem it will help you so much when
+you when you've eliminated so many of
+
+180
+00:13:53,760 --> 00:13:54,990
+the possibilities
+
+181
+00:13:54,990 --> 00:13:58,680
+you only have one or two possibilities
+left it will save you I promise
+
+182
+00:13:58,680 --> 00:14:05,010
+ok I also know that Oh must be 0 so it's
+not two three four five six seven eight
+
+183
+00:14:05,010 --> 00:14:09,360
+or nine and also he's not 0 and 90
+
+184
+00:14:10,170 --> 00:14:15,959
+I can eliminate all of those
+possibilities ok if the oh and money is
+
+185
+00:14:15,959 --> 00:14:18,239
+not our 20 excuse me
+
+186
+00:14:18,240 --> 00:14:21,240
+then the oh and more must be 0
+
+187
+00:14:25,070 --> 00:14:31,760
+ok so here we get to a funny situation
+when we look at the E and send be plus 0
+
+188
+00:14:31,760 --> 00:14:40,850
+equals n and that doesn't make sense you
+think he + 0 would equal e right but um
+
+189
+00:14:40,850 --> 00:14:44,120
+this is kind of a conundrum that we run
+into
+
+190
+00:14:44,120 --> 00:14:50,150
+there's no way that he + 0 could equal
+end because he plus 0 is e the only way
+
+191
+00:14:50,150 --> 00:14:56,329
+we could do that is if n plus R equals
+something more than 10 and then we had
+
+192
+00:14:56,330 --> 00:15:06,920
+to carry a 1 up there above the ec that
+ok then this might work out
+
+193
+00:15:07,490 --> 00:15:17,570
+ok so let's try a number for e and maybe
+let's just try for let's try for
+
+194
+00:15:18,110 --> 00:15:24,050
+ok so I'm going to put a four in here
+for e which means i need a for down here
+
+195
+00:15:24,050 --> 00:15:26,449
+and a 4 right there
+
+196
+00:15:26,450 --> 00:15:34,670
+ok and one plus four is five so the end
+must be five
+
+197
+00:15:34,670 --> 00:15:44,959
+there we go now we're in another kind of
+sticky situation here when we look at
+
+198
+00:15:44,960 --> 00:15:56,540
+the n plus R + + r has to equal 14 + +
+RS equal 14 so 5 plus what equals 14
+
+199
+00:15:56,540 --> 00:15:59,870
+well you would think it would be nine
+but the problem is that i've already
+
+200
+00:15:59,870 --> 00:16:02,930
+used in the nine so our can't be nine
+
+201
+00:16:02,930 --> 00:16:09,380
+so again when i figure out when i look
+at this long enough as i know that our
+
+202
+00:16:09,380 --> 00:16:16,520
+must be eight and d + e must equal
+something more than 10 because then i
+
+203
+00:16:16,520 --> 00:16:25,310
+have to carry a 1 up there above the 51
+plus 5 and 6 6 plus 8 is 14 and then 1
+
+204
+00:16:25,310 --> 00:16:28,550
+plus 4 is 5 9 plus 1 is 10 so on and so
+forth
+
+205
+00:16:29,360 --> 00:16:33,770
+all right which brings me to D and why
+
+206
+00:16:34,490 --> 00:16:37,670
+ok let me fill in some of this other
+information here I know that
+
+207
+00:16:37,670 --> 00:16:40,670
+is for cross out cross out
+
+208
+00:16:47,320 --> 00:16:51,040
+I know that what else do I know our is
+eight
+
+209
+00:16:59,590 --> 00:17:02,590
+okay i know that n is 5
+
+210
+00:17:10,190 --> 00:17:17,420
+and I think that's all I no no
+
+211
+00:17:18,240 --> 00:17:23,939
+alright so when i'm looking at this i'm
+down to D and wine look at look at that
+
+212
+00:17:23,939 --> 00:17:27,329
+I've eliminated most of the
+possibilities for d and why
+
+213
+00:17:27,329 --> 00:17:38,070
+here's the deal though is d + 4 has to
+equal number bigger than 10 so
+
+214
+00:17:38,070 --> 00:17:53,280
+d the biggest number that d could be is
+70 k + 7 + 4 is only 11
+
+215
+00:17:53,850 --> 00:17:58,080
+here's the problem though is that one
+has already been used em is one
+
+216
+00:17:58,080 --> 00:18:02,730
+dang it not quite going to work out
+
+217
+00:18:02,730 --> 00:18:05,730
+ok so let's change some numbers here
+
+218
+00:18:05,730 --> 00:18:09,750
+see this is how L eliminating
+possibilities works as you try some
+
+219
+00:18:09,750 --> 00:18:12,510
+possibilities and see if they work and
+if they don't work then you try
+
+220
+00:18:12,510 --> 00:18:13,620
+something different
+
+221
+00:18:13,620 --> 00:18:19,199
+let's say that he isn't for let's say
+that
+
+222
+00:18:19,200 --> 00:18:30,929
+e is five ok now we have seven plus 5 is
+in 11
+
+223
+00:18:30,929 --> 00:18:35,040
+now that's 12
+
+224
+00:18:35,040 --> 00:18:38,970
+carry the 1 and can't be five anymore
+
+225
+00:18:38,970 --> 00:18:43,740
+let's say n is 6
+
+226
+00:18:46,740 --> 00:19:01,290
+here we go 1 plus 6 and 7 7 plus 8 is 15
+so again this isn't for any more it's 15
+
+227
+00:19:01,290 --> 00:19:03,149
+carry the one
+
+228
+00:19:03,150 --> 00:19:20,100
+this e up here isn't for it must be a 5
+1 plus 5 is 6 6 plus 0 is six and the
+
+229
+00:19:20,100 --> 00:19:24,870
+end up on sand is safe so it's a good
+thing that the end I'm here and money
+
+230
+00:19:24,870 --> 00:19:25,770
+and six
+
+231
+00:19:25,770 --> 00:19:29,639
+so my gosh i think that that works
+
+232
+00:19:29,640 --> 00:19:32,970
+ok I think that 900
+
+233
+00:19:32,970 --> 00:19:42,000
+look sorry 9560 7 plus 1085 equals ten
+thousand six hundred and fifty-two let's
+
+234
+00:19:42,000 --> 00:19:46,679
+just go through it one more time step by
+step to make sure that it works 7 plus 5
+
+235
+00:19:46,679 --> 00:19:47,520
+is 12
+
+236
+00:19:47,520 --> 00:19:52,770
+carry the 1 1 plus 6 and 7 7 plus 8 is
+15
+
+237
+00:19:52,770 --> 00:20:01,170
+carry the 1 1 plus 5 is 6 6 plus 0 is 69
+plus 1 is 10 carry the one
+
+238
+00:20:01,170 --> 00:20:06,000
+excellent work so that's the solution to
+this problem and it's not always going
+
+239
+00:20:06,000 --> 00:20:09,780
+to work out perfectly as we saw in this
+example we found out that he could not
+
+240
+00:20:09,780 --> 00:20:12,780
+be four he had to be five
+
+241
+00:20:12,780 --> 00:20:19,920
+ok so let's try one more example in this
+next example it's called here she comes
+
+242
+00:20:19,920 --> 00:20:26,580
+and it's here plus xi equals comes and
+this problem is the same rules each
+
+243
+00:20:26,580 --> 00:20:32,850
+letter has to be a digit 0 through 9 no
+2 letters can be the same digit same
+
+244
+00:20:32,850 --> 00:20:34,500
+rules that we've been playing all day
+
+245
+00:20:34,500 --> 00:20:39,300
+again this is a good chance for you to
+pause the video and try this one out on
+
+246
+00:20:39,300 --> 00:20:44,610
+your own see if you can do it all on
+your own and then watch the video and
+
+247
+00:20:44,610 --> 00:20:45,990
+see how I did
+
+248
+00:20:45,990 --> 00:20:49,830
+ok so I'm going to go to the next screen
+again it's a good idea deposit and try
+
+249
+00:20:51,210 --> 00:20:54,210
+but i'm going to go ahead and solve this
+thing ok
+
+250
+00:20:55,140 --> 00:20:59,250
+as I'm working here again the first
+thing that I look at is the sea out
+
+251
+00:20:59,250 --> 00:21:03,299
+front I know that that C has to be a one
+it can't be anything bigger than that he
+
+252
+00:21:03,299 --> 00:21:08,490
+has to be a one and eliminate some
+possibilities here in just a moment
+
+253
+00:21:15,870 --> 00:21:18,379
+I
+
+254
+00:21:18,380 --> 00:21:22,070
+next then I look at that H and I don't
+know that
+
+255
+00:21:22,070 --> 00:21:25,669
+h+ nothing has to equal 10 or bigger
+
+256
+00:21:26,210 --> 00:21:31,190
+hey so that's tough to do because the
+biggest number H could be as a nine so
+
+257
+00:21:31,190 --> 00:21:36,980
+i'm going to go ahead and assume that H
+must be 9 h is nine
+
+258
+00:21:48,809 --> 00:21:55,168
+all right and if the h and here is nine
+then the h and she is also nine so we
+
+259
+00:21:55,169 --> 00:21:59,429
+know that I also know that i must be
+carrying a one up here at the top
+
+260
+00:21:59,429 --> 00:22:03,389
+because 1 plus 9 equals 10
+
+261
+00:22:03,389 --> 00:22:06,570
+ok so that
+
+262
+00:22:06,570 --> 00:22:11,789
+Oh must be 0 so i know that i know all
+must be 0
+
+263
+00:22:20,920 --> 00:22:30,400
+there we go it's coming along now ok now
+I'm to the part where and i'm not
+
+264
+00:22:30,400 --> 00:22:34,210
+exactly sure where to go next so what I
+need to do is I just need to try some
+
+265
+00:22:34,210 --> 00:22:39,280
+arm different numbers and see if they
+work or not I had to do some trial and
+
+266
+00:22:39,280 --> 00:22:39,879
+error
+
+267
+00:22:39,880 --> 00:22:44,440
+sometimes it might work sometimes it
+doesn't work ok so let's look at me
+
+268
+00:22:44,440 --> 00:22:49,000
+there's 1 2 3 4 e's so if i could figure
+out yet but I could figure out the rest
+
+269
+00:22:49,000 --> 00:22:50,020
+of this problem
+
+270
+00:22:50,020 --> 00:22:54,129
+let's make a guess 4e ok last time he
+was five
+
+271
+00:22:54,700 --> 00:22:58,420
+so let's try that again see if it works
+again let's try
+
+272
+00:22:58,420 --> 00:23:09,730
+II that's 5k and already I can see that
+that's not going to work because 5+5
+
+273
+00:23:09,730 --> 00:23:15,220
+would equal zero which means s would
+have to be 0 and s can't be 0 because 0
+
+274
+00:23:15,220 --> 00:23:17,860
+is already 0 so that's not going to work
+
+275
+00:23:17,860 --> 00:23:22,449
+he can't be five so let me get my eraser
+out
+
+276
+00:23:27,100 --> 00:23:34,840
+he's not five I know that ok so over on
+my own chart over here I know that II
+
+277
+00:23:34,840 --> 00:23:37,840
+can't be five eliminate that possibility
+
+278
+00:23:38,830 --> 00:23:45,010
+ok let's try for maybe he is for that's
+worth a try
+
+279
+00:23:46,000 --> 00:23:55,150
+ok four plus for then would be eight so
+s might be eight means this s is eight
+
+280
+00:23:55,150 --> 00:23:59,470
+ok that looks good so far
+
+281
+00:23:59,470 --> 00:24:09,429
+then r + 9 has to equal 4 r plus 9 is
+equal for that means our must be five is
+
+282
+00:24:09,429 --> 00:24:20,559
+five plus nine is 14 then I could carry
+a 1 over here 1 plus 4 is 55 plus 8 is
+
+283
+00:24:20,559 --> 00:24:23,620
+the team carry the one which I needed
+
+284
+00:24:23,620 --> 00:24:28,299
+hey how it looks like we have a winner
+here let's double check our answer
+
+285
+00:24:28,299 --> 00:24:34,809
+really quick go through to make sure
+that it makes sense if he is 44 plus 4
+
+286
+00:24:34,809 --> 00:24:38,168
+is 8 s must be eight
+
+287
+00:24:38,169 --> 00:24:43,120
+ok then five plus nine is 14
+
+288
+00:24:43,120 --> 00:24:51,969
+carry the 1 1 plus 4 is 55 plus 8 is 13
+carry the 1 1 plus 9 is 10 carry the one
+
+289
+00:24:51,970 --> 00:24:55,480
+so it looks like there's our answer i'm
+going to go ahead and fill in my chart
+
+290
+00:24:55,480 --> 00:24:56,590
+here real quick
+
+291
+00:24:56,590 --> 00:25:01,570
+I found my answer
+
+292
+00:25:02,470 --> 00:25:07,120
+notice I didn't get my answer right on
+the first try first I thought that he
+
+293
+00:25:07,120 --> 00:25:08,469
+was five
+
+294
+00:25:08,470 --> 00:25:13,690
+ok and so I did a little bit of math and
+figured out that there's no way each
+
+295
+00:25:13,690 --> 00:25:18,610
+could have been five so i eliminated
+five from the possibilities and I just
+
+296
+00:25:18,610 --> 00:25:20,049
+tried a different number
+
+297
+00:25:20,049 --> 00:25:24,070
+and don't be afraid to just do some
+trial and error and try different
+
+298
+00:25:24,070 --> 00:25:27,070
+numbers out and see if you can come up
+with the right one
+
+299
+00:25:30,380 --> 00:25:33,500
+all right it looks like I finished that
+problem
+
+300
+00:25:33,500 --> 00:25:36,500
+the next slide is your homework problem
+
+301
+00:25:37,040 --> 00:25:40,670
+ok and this one you're going to have to
+try all on your own if you want to work
+
+302
+00:25:40,670 --> 00:25:43,700
+with a partner to solve this one that's
+okay you can work with a partner
+
+303
+00:25:44,390 --> 00:25:49,520
+the next one is called wow wow so cook
+
+304
+00:25:49,520 --> 00:25:53,810
+ok and it goes like this i dinnae was
+having an argument with her roommate
+
+305
+00:25:53,810 --> 00:25:58,520
+Frankie about whether or not Frankie
+could cook after arguing for a while
+
+306
+00:25:58,520 --> 00:26:01,670
+then they said wow so cook
+
+307
+00:26:01,670 --> 00:26:07,310
+Frankie who was a math teacher noticed
+that donate what dinnae said might be a
+
+308
+00:26:07,310 --> 00:26:09,200
+crypt arithmetic problem
+
+309
+00:26:09,200 --> 00:26:12,860
+she sat down to work on it and then they
+ended up cooking dinner
+
+310
+00:26:13,370 --> 00:26:17,120
+each letter in the crypt arithmetic
+problem stands for a different digit
+
+311
+00:26:17,120 --> 00:26:18,469
+hint
+
+312
+00:26:18,470 --> 00:26:22,130
+k equals nine okay so they're giving UK
+
+313
+00:26:22,850 --> 00:26:25,969
+that's good i know that k equals nine
+
+314
+00:26:26,510 --> 00:26:30,470
+I also know that see got to equal one
+
+315
+00:26:31,190 --> 00:26:37,730
+so there's only three letters less a w +
+0 and then s
+
+316
+00:26:37,730 --> 00:26:41,000
+those are the only three letters that
+you have to figure out this problem
+
+317
+00:26:41,000 --> 00:26:45,980
+looks really really simple but it's a
+little trickier than you think so you've
+
+318
+00:26:45,980 --> 00:26:49,730
+got to be very careful with it but you
+only have three letters to figure out w
+
+319
+00:26:49,730 --> 00:26:52,340
+ons if you can solve this problem
+
+320
+00:26:52,340 --> 00:26:57,980
+you don't need to write any paragraphs
+today just um solve this problem find
+
+321
+00:26:57,980 --> 00:27:02,690
+out what W equals what o is equal and
+what s equals good luck I hope this
+
+322
+00:27:02,690 --> 00:27:06,140
+comes easy to you if you need to go back
+and watch this video game that's no
+
+323
+00:27:06,140 --> 00:27:06,920
+problem
+
+324
+00:27:06,920 --> 00:27:08,960
+thank you and i will see you soon bye
+
